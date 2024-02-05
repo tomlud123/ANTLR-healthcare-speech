@@ -1,6 +1,8 @@
+import argparse
 import json
 import logging
 import re
+import sys
 
 from antlr4 import *
 from antlr4.error.ErrorStrategy import DefaultErrorStrategy
@@ -181,6 +183,8 @@ def get_json(command_str):
 
 
 if __name__ == "__main__":
-    #testing place
-    json_dict = get_json("OK Glasses, set medication fresh water, 200 millilitres, and a pill of ibuprofen 600mg, end medication")
+    input = "OK Glasses, set medication fresh water, 200 millilitres, and a pill of ibuprofen 600mg, end medication"
+    if len(sys.argv) > 1:
+        input = sys.argv[1]
+    json_dict = get_json(input)
     print("\nOutput:\n" + json.dumps(json_dict, indent=4))

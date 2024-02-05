@@ -1,7 +1,6 @@
 import argparse
 import re
 import sys
-import warnings
 
 #Works. Input: g4 and (dict of synonyms + terminal input synonym). Output: save modified g4
 def save_g4_file(file_path, content):
@@ -46,9 +45,9 @@ def replace_with_synonyms(text, synonym_dict):
     return text
 
 
-def addTerminalInput():
+def add_terminal_input():
     try:
-        if len(sys.argv) < 3:
+        if len(sys.argv) < 3: #1 script call + 2 dict args
             return  # no enough arguments
         parser = argparse.ArgumentParser(description="Process input strings.")
         # First input string argument
@@ -69,7 +68,7 @@ synonyms = {
 }
 
 if __name__ == "__main__":
-    addTerminalInput()
+    add_terminal_input()
     path = "MedicalSmartGlassesLexer.g4"
     antlr_file_content = read_g4_file(path)
     if antlr_file_content is not None:
