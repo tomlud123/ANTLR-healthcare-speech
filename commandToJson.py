@@ -119,11 +119,11 @@ class CaisMeVisitor(MedicalSmartGlassesParserVisitor):
         self.json_dict['content'] = ctx.patient_name().getText().title()
 
     def visitU19(self, ctx):
-        self.json_dict['type'] = 'REQUEST_PATIENT'
+        self.json_dict['type'] = 'GLASSES_COMMAND'
         self.json_dict['content'] = 'SHOW_MESSAGES'
 
     def visitU20(self, ctx):
-        self.json_dict['type'] = 'REQUEST_PATIENT'
+        self.json_dict['type'] = 'MESSAGE'
         self.json_dict['to'] = ctx.patient_name().getText().title()
         self.json_dict['content'] = ctx.note().getText()
 
@@ -181,5 +181,6 @@ def get_json(command_str):
 
 
 if __name__ == "__main__":
-    json_dict = get_json("OK Glasses accept emergency")
+    #testing place
+    json_dict = get_json("OK Glasses, set medication fresh water, 200 millilitres, and a pill of ibuprofen 600mg, end medication")
     print("\nOutput:\n" + json.dumps(json_dict, indent=4))

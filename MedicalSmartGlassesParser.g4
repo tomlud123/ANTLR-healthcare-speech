@@ -50,7 +50,7 @@ set_medication: u16 | u17;
 u16: (SET | START) WS MEDICATION WS medication (WS AND WS medication)* WS END WS MEDICATION;
 u17: (SET | START) WS MEDICATION WS medication (WS AND WS medication)* WS AT WS timestamp WS END WS MEDICATION;
 medication: medicine WS INT WS unit;
-medicine: ~INT (WS ~INT)*;
+medicine: ~INT (WS ~(INT | AND))*;
 unit: ~INT (WS ~INT)? (WS ~INT)?;
 timestamp: INT WS (OCLOCK | PM | AM);
 
