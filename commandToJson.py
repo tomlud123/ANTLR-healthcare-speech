@@ -1,4 +1,6 @@
 import json
+import logging
+import re
 
 from antlr4 import *
 from antlr4.error.ErrorStrategy import DefaultErrorStrategy
@@ -12,10 +14,9 @@ from gen.MedicalSmartGlassesParserVisitor import MedicalSmartGlassesParserVisito
 # Master thesis solution
 
 
-class CustomErrorStrategy(DefaultErrorStrategy):
-    def reportInputMismatch(self, recognizer, e):
-        message = f"Custom error: Mismatched input at {e.offendingToken}. Expected: {e.getExpectedTokens().toString(recognizer.literalNames, recognizer.symbolicNames)}"
-        raise RecognitionException(message, recognizer, recognizer.getInputStream(), recognizer._ctx)
+class ExceptionThrowingErrorStrategy(DefaultErrorStrategy):
+    def beginErrorCondition(self, recognizer):
+        raise RecognitionException
 
 
 class CaisMeVisitor(MedicalSmartGlassesParserVisitor):
@@ -142,22 +143,43 @@ def parse(input_string):
     lexer = MedicalSmartGlassesLexer(input_stream)
     stream = CommonTokenStream(lexer)
     parser = MedicalSmartGlassesParser(stream)
-    parser._errHandler = CustomErrorStrategy()
+    parser._errHandler = ExceptionThrowingErrorStrategy()
     tree = parser.command()  # Assuming 'command' is the root rule
     # Print the entire parse tree
-    print("Parse tree: "+Trees.toStringTree(tree, None, parser))
+    logging.info("Parse tree: "+Trees.toStringTree(tree, None, parser))
     return tree
 
+
 def preprocess(input_text):
-    1;
+    TRIGGER = "ok glasses"
+    input_text = input_text.lower()
+    input_text = re.sub(r'[^\w\s]', '', input_text)
+
+    # Cut off text BEFORE 'ok glasses'
+    input_text = input_text.replace("okay", "ok")
+    if TRIGGER in input_text:
+        input_text = TRIGGER + " " + re.split(TRIGGER, input_text)[-1].strip()
+
+    # Split words and numbers
+    input_text = re.sub(r'(\d)(?=\D)|(\D)(?=\d)', r'\1\2 ', input_text)
+
+    # Unify multiple whitespaces into a single whitespace
+    input_text = re.sub(r'\s+', ' ', input_text)
+
+    return input_text
+
+
+def get_json(command_str):
+    visitor = CaisMeVisitor()
+    try:
+        parse_tree = parse(preprocess(command_str))
+    except RecognitionException:
+        logging.info("Provided input doesn't match the grammar")
+        parse_tree = None
+    visitor.visit(parse_tree)
+    return visitor.get_json_dict()
 
 
 if __name__ == "__main__":
-    visitor = CaisMeVisitor()
-    try:
-        parse_tree = parse("ok glasses stop frame")
-    except RecognitionException as e:
-        print(f"Parsing error: {str(e)}")
-        parse_tree = None
-    visitor.visit(parse_tree)
-    print("\nOutput:\n" + json.dumps(visitor.get_json_dict(), indent=4))
+    json_dict = get_json("OK Glasses accept emergency")
+    print("\nOutput:\n" + json.dumps(json_dict, indent=4))

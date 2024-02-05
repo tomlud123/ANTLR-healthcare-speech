@@ -1,6 +1,6 @@
 lexer grammar MedicalSmartGlassesLexer;
 
-TRIGGER: 'ok glasses ';
+TRIGGER: ('ok glasses '|'okay glasses ');
 
 //glasses_command
 STOP: 'stop';
@@ -14,6 +14,7 @@ START: 'start';
 END: 'end';
 ACCEPT: 'accept';
 LEAVE: 'leave';
+MODE: 'mode';
 EMERGENCY: 'emergency';
 SWITCH: 'switch';
 SHOW: 'show';
