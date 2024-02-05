@@ -1,6 +1,8 @@
 import json
 
 from antlr4 import *
+from antlr4.error.ErrorStrategy import DefaultErrorStrategy
+from antlr4.error.Errors import InputMismatchException
 from antlr4.tree.Trees import Trees
 
 from gen.MedicalSmartGlassesLexer import MedicalSmartGlassesLexer
@@ -8,6 +10,12 @@ from gen.MedicalSmartGlassesParser import MedicalSmartGlassesParser
 from gen.MedicalSmartGlassesParserVisitor import MedicalSmartGlassesParserVisitor
 
 # Master thesis solution
+
+
+class CustomErrorStrategy(DefaultErrorStrategy):
+    def reportInputMismatch(self, recognizer, e):
+        message = f"Custom error: Mismatched input at {e.offendingToken}. Expected: {e.getExpectedTokens().toString(recognizer.literalNames, recognizer.symbolicNames)}"
+        raise RecognitionException(message, recognizer, recognizer.getInputStream(), recognizer._ctx)
 
 
 class CaisMeVisitor(MedicalSmartGlassesParserVisitor):
@@ -119,6 +127,8 @@ class CaisMeVisitor(MedicalSmartGlassesParserVisitor):
         self.json_dict['content'] = ctx.note().getText()
 
     def visit(self, tree):
+        if tree is None:
+            return
         self.json_dict = {}  # Reset or initialize json_dict for this visit, if needed
         super().visit(tree)  # Correctly call the parent class's visit method, passing the tree
 
@@ -132,14 +142,22 @@ def parse(input_string):
     lexer = MedicalSmartGlassesLexer(input_stream)
     stream = CommonTokenStream(lexer)
     parser = MedicalSmartGlassesParser(stream)
+    parser._errHandler = CustomErrorStrategy()
     tree = parser.command()  # Assuming 'command' is the root rule
     # Print the entire parse tree
     print("Parse tree: "+Trees.toStringTree(tree, None, parser))
     return tree
 
+def preprocess(input_text):
+    1;
+
 
 if __name__ == "__main__":
     visitor = CaisMeVisitor()
-    parse_tree = parse("ok glasses set note blabla bla blabla 123 hour oclock end note")
+    try:
+        parse_tree = parse("ok glasses stop frame")
+    except RecognitionException as e:
+        print(f"Parsing error: {str(e)}")
+        parse_tree = None
     visitor.visit(parse_tree)
     print("\nOutput:\n" + json.dumps(visitor.get_json_dict(), indent=4))
