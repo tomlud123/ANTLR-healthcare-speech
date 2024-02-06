@@ -1,0 +1,13 @@
+lexer grammar {{grammarName}}Lexer;
+
+TRIGGER: {{trigger}};
+
+{{#lexerRules}}
+// Parser rules
+{{ruleName}} : {{definition}} ;
+{{/lexerRules}}
+
+
+INT: [0-9]+;
+WORD: [a-zA-Z]+;
+WS : [ \t\r\n]+;

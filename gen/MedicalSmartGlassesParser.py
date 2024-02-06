@@ -17,121 +17,122 @@ def serializedATN():
         2,27,7,27,2,28,7,28,2,29,7,29,2,30,7,30,2,31,7,31,2,32,7,32,2,33,
         7,33,2,34,7,34,2,35,7,35,2,36,7,36,1,0,1,0,1,0,1,0,1,0,1,0,1,0,3,
         0,82,8,0,1,0,1,0,1,1,1,1,1,1,1,1,3,1,90,8,1,1,2,1,2,3,2,94,8,2,1,
-        3,1,3,1,3,3,3,99,8,3,1,4,1,4,1,4,3,4,104,8,4,1,5,1,5,3,5,108,8,5,
-        1,6,1,6,1,6,1,6,1,6,3,6,115,8,6,1,7,1,7,1,7,1,7,1,7,3,7,122,8,7,
-        1,8,1,8,3,8,126,8,8,1,9,1,9,3,9,130,8,9,1,10,1,10,3,10,134,8,10,
-        1,11,1,11,1,11,1,11,1,12,1,12,1,12,1,12,1,13,1,13,1,13,1,13,1,13,
-        3,13,149,8,13,1,14,1,14,1,14,1,14,1,14,3,14,156,8,14,1,15,1,15,1,
-        15,1,15,3,15,162,8,15,1,15,1,15,1,15,1,16,1,16,3,16,169,8,16,1,17,
-        1,17,1,17,1,17,1,17,1,17,1,18,1,18,1,18,1,18,1,19,1,19,1,19,5,19,
-        184,8,19,10,19,12,19,187,9,19,1,20,1,20,1,20,1,20,1,20,1,20,1,21,
-        1,21,1,21,1,21,1,22,1,22,1,23,1,23,1,23,1,23,1,23,1,23,1,23,1,23,
-        1,23,1,23,1,23,1,23,1,23,1,23,1,23,1,23,1,23,1,23,1,23,1,23,3,23,
-        221,8,23,1,24,1,24,1,24,5,24,226,8,24,10,24,12,24,229,9,24,1,25,
-        1,25,3,25,233,8,25,1,26,1,26,1,26,1,26,1,26,1,26,1,26,1,26,1,26,
-        5,26,244,8,26,10,26,12,26,247,9,26,1,26,1,26,1,26,1,26,1,26,1,27,
-        1,27,1,27,1,27,1,27,1,27,1,27,1,27,1,27,5,27,263,8,27,10,27,12,27,
-        266,9,27,1,27,1,27,1,27,1,27,1,27,1,27,1,27,1,27,1,27,1,28,1,28,
-        1,28,1,28,1,28,1,28,1,29,1,29,1,29,5,29,286,8,29,10,29,12,29,289,
-        9,29,1,30,1,30,1,30,3,30,294,8,30,1,30,1,30,3,30,298,8,30,1,31,1,
-        31,1,31,1,31,1,32,1,32,1,33,1,33,1,33,1,33,1,33,1,33,1,33,1,33,1,
-        34,1,34,1,34,3,34,317,8,34,1,34,1,34,3,34,321,8,34,1,34,1,34,3,34,
-        325,8,34,1,35,1,35,1,36,1,36,1,36,3,36,332,8,36,1,36,1,36,1,36,1,
-        36,1,36,1,36,1,36,1,36,3,36,342,8,36,1,36,1,36,1,36,1,36,3,36,348,
-        8,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,0,0,37,0,
-        2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,
-        48,50,52,54,56,58,60,62,64,66,68,70,72,0,4,2,0,9,9,26,26,1,0,42,
-        42,2,0,30,30,42,42,1,0,32,34,357,0,74,1,0,0,0,2,89,1,0,0,0,4,93,
-        1,0,0,0,6,95,1,0,0,0,8,100,1,0,0,0,10,107,1,0,0,0,12,109,1,0,0,0,
-        14,116,1,0,0,0,16,125,1,0,0,0,18,129,1,0,0,0,20,133,1,0,0,0,22,135,
-        1,0,0,0,24,139,1,0,0,0,26,143,1,0,0,0,28,150,1,0,0,0,30,161,1,0,
-        0,0,32,168,1,0,0,0,34,170,1,0,0,0,36,176,1,0,0,0,38,180,1,0,0,0,
-        40,188,1,0,0,0,42,194,1,0,0,0,44,198,1,0,0,0,46,220,1,0,0,0,48,222,
-        1,0,0,0,50,232,1,0,0,0,52,234,1,0,0,0,54,253,1,0,0,0,56,276,1,0,
-        0,0,58,282,1,0,0,0,60,290,1,0,0,0,62,299,1,0,0,0,64,303,1,0,0,0,
-        66,305,1,0,0,0,68,313,1,0,0,0,70,326,1,0,0,0,72,328,1,0,0,0,74,81,
-        5,1,0,0,75,82,3,2,1,0,76,82,3,32,16,0,77,82,3,44,22,0,78,82,3,50,
-        25,0,79,82,3,64,32,0,80,82,3,70,35,0,81,75,1,0,0,0,81,76,1,0,0,0,
-        81,77,1,0,0,0,81,78,1,0,0,0,81,79,1,0,0,0,81,80,1,0,0,0,82,83,1,
-        0,0,0,83,84,5,0,0,1,84,1,1,0,0,0,85,90,3,4,2,0,86,90,3,10,5,0,87,
-        90,3,16,8,0,88,90,3,30,15,0,89,85,1,0,0,0,89,86,1,0,0,0,89,87,1,
-        0,0,0,89,88,1,0,0,0,90,3,1,0,0,0,91,94,3,6,3,0,92,94,3,8,4,0,93,
-        91,1,0,0,0,93,92,1,0,0,0,94,5,1,0,0,0,95,98,5,2,0,0,96,97,5,44,0,
-        0,97,99,5,3,0,0,98,96,1,0,0,0,98,99,1,0,0,0,99,7,1,0,0,0,100,103,
-        5,4,0,0,101,102,5,44,0,0,102,104,5,3,0,0,103,101,1,0,0,0,103,104,
-        1,0,0,0,104,9,1,0,0,0,105,108,3,12,6,0,106,108,3,14,7,0,107,105,
-        1,0,0,0,107,106,1,0,0,0,108,11,1,0,0,0,109,110,5,5,0,0,110,111,5,
-        44,0,0,111,114,5,7,0,0,112,113,5,44,0,0,113,115,5,8,0,0,114,112,
-        1,0,0,0,114,115,1,0,0,0,115,13,1,0,0,0,116,117,5,5,0,0,117,118,5,
-        44,0,0,118,121,5,6,0,0,119,120,5,44,0,0,120,122,5,8,0,0,121,119,
-        1,0,0,0,121,122,1,0,0,0,122,15,1,0,0,0,123,126,3,18,9,0,124,126,
-        3,20,10,0,125,123,1,0,0,0,125,124,1,0,0,0,126,17,1,0,0,0,127,130,
-        3,22,11,0,128,130,3,24,12,0,129,127,1,0,0,0,129,128,1,0,0,0,130,
-        19,1,0,0,0,131,134,3,26,13,0,132,134,3,28,14,0,133,131,1,0,0,0,133,
-        132,1,0,0,0,134,21,1,0,0,0,135,136,5,9,0,0,136,137,5,44,0,0,137,
-        138,5,14,0,0,138,23,1,0,0,0,139,140,5,10,0,0,140,141,5,44,0,0,141,
-        142,5,14,0,0,142,25,1,0,0,0,143,144,5,11,0,0,144,145,5,44,0,0,145,
-        148,5,14,0,0,146,147,5,44,0,0,147,149,5,13,0,0,148,146,1,0,0,0,148,
-        149,1,0,0,0,149,27,1,0,0,0,150,151,5,12,0,0,151,152,5,44,0,0,152,
-        155,5,14,0,0,153,154,5,44,0,0,154,156,5,13,0,0,155,153,1,0,0,0,155,
-        156,1,0,0,0,156,29,1,0,0,0,157,158,5,15,0,0,158,159,5,44,0,0,159,
-        162,5,17,0,0,160,162,5,16,0,0,161,157,1,0,0,0,161,160,1,0,0,0,162,
-        163,1,0,0,0,163,164,5,44,0,0,164,165,5,18,0,0,165,31,1,0,0,0,166,
-        169,3,34,17,0,167,169,3,36,18,0,168,166,1,0,0,0,168,167,1,0,0,0,
-        169,33,1,0,0,0,170,171,5,16,0,0,171,172,5,44,0,0,172,173,3,38,19,
-        0,173,174,5,44,0,0,174,175,3,40,20,0,175,35,1,0,0,0,176,177,5,16,
-        0,0,177,178,5,44,0,0,178,179,3,38,19,0,179,37,1,0,0,0,180,185,9,
-        0,0,0,181,182,5,44,0,0,182,184,9,0,0,0,183,181,1,0,0,0,184,187,1,
-        0,0,0,185,183,1,0,0,0,185,186,1,0,0,0,186,39,1,0,0,0,187,185,1,0,
-        0,0,188,189,5,19,0,0,189,190,5,44,0,0,190,191,5,20,0,0,191,192,5,
-        44,0,0,192,193,3,42,21,0,193,41,1,0,0,0,194,195,5,42,0,0,195,196,
-        5,44,0,0,196,197,5,21,0,0,197,43,1,0,0,0,198,199,3,46,23,0,199,45,
-        1,0,0,0,200,201,5,26,0,0,201,202,5,44,0,0,202,203,5,27,0,0,203,204,
-        5,44,0,0,204,205,3,48,24,0,205,206,5,44,0,0,206,207,5,10,0,0,207,
-        208,5,44,0,0,208,209,5,27,0,0,209,221,1,0,0,0,210,211,5,9,0,0,211,
-        212,5,44,0,0,212,213,5,28,0,0,213,214,5,44,0,0,214,215,3,48,24,0,
-        215,216,5,44,0,0,216,217,5,10,0,0,217,218,5,44,0,0,218,219,5,28,
-        0,0,219,221,1,0,0,0,220,200,1,0,0,0,220,210,1,0,0,0,221,47,1,0,0,
-        0,222,227,9,0,0,0,223,224,5,44,0,0,224,226,9,0,0,0,225,223,1,0,0,
-        0,226,229,1,0,0,0,227,225,1,0,0,0,227,228,1,0,0,0,228,49,1,0,0,0,
-        229,227,1,0,0,0,230,233,3,52,26,0,231,233,3,54,27,0,232,230,1,0,
-        0,0,232,231,1,0,0,0,233,51,1,0,0,0,234,235,7,0,0,0,235,236,5,44,
-        0,0,236,237,5,29,0,0,237,238,5,44,0,0,238,245,3,56,28,0,239,240,
-        5,44,0,0,240,241,5,30,0,0,241,242,5,44,0,0,242,244,3,56,28,0,243,
-        239,1,0,0,0,244,247,1,0,0,0,245,243,1,0,0,0,245,246,1,0,0,0,246,
-        248,1,0,0,0,247,245,1,0,0,0,248,249,5,44,0,0,249,250,5,10,0,0,250,
-        251,5,44,0,0,251,252,5,29,0,0,252,53,1,0,0,0,253,254,7,0,0,0,254,
-        255,5,44,0,0,255,256,5,29,0,0,256,257,5,44,0,0,257,264,3,56,28,0,
-        258,259,5,44,0,0,259,260,5,30,0,0,260,261,5,44,0,0,261,263,3,56,
-        28,0,262,258,1,0,0,0,263,266,1,0,0,0,264,262,1,0,0,0,264,265,1,0,
-        0,0,265,267,1,0,0,0,266,264,1,0,0,0,267,268,5,44,0,0,268,269,5,31,
-        0,0,269,270,5,44,0,0,270,271,3,62,31,0,271,272,5,44,0,0,272,273,
-        5,10,0,0,273,274,5,44,0,0,274,275,5,29,0,0,275,55,1,0,0,0,276,277,
-        3,58,29,0,277,278,5,44,0,0,278,279,5,42,0,0,279,280,5,44,0,0,280,
-        281,3,60,30,0,281,57,1,0,0,0,282,287,8,1,0,0,283,284,5,44,0,0,284,
-        286,8,2,0,0,285,283,1,0,0,0,286,289,1,0,0,0,287,285,1,0,0,0,287,
-        288,1,0,0,0,288,59,1,0,0,0,289,287,1,0,0,0,290,293,8,1,0,0,291,292,
-        5,44,0,0,292,294,8,1,0,0,293,291,1,0,0,0,293,294,1,0,0,0,294,297,
-        1,0,0,0,295,296,5,44,0,0,296,298,8,1,0,0,297,295,1,0,0,0,297,298,
-        1,0,0,0,298,61,1,0,0,0,299,300,5,42,0,0,300,301,5,44,0,0,301,302,
-        7,3,0,0,302,63,1,0,0,0,303,304,3,66,33,0,304,65,1,0,0,0,305,306,
-        5,35,0,0,306,307,5,44,0,0,307,308,5,36,0,0,308,309,5,44,0,0,309,
-        310,5,17,0,0,310,311,5,44,0,0,311,312,3,68,34,0,312,67,1,0,0,0,313,
-        316,5,43,0,0,314,315,5,44,0,0,315,317,5,43,0,0,316,314,1,0,0,0,316,
-        317,1,0,0,0,317,320,1,0,0,0,318,319,5,44,0,0,319,321,5,43,0,0,320,
-        318,1,0,0,0,320,321,1,0,0,0,321,324,1,0,0,0,322,323,5,44,0,0,323,
-        325,5,43,0,0,324,322,1,0,0,0,324,325,1,0,0,0,325,69,1,0,0,0,326,
-        327,3,72,36,0,327,71,1,0,0,0,328,331,5,9,0,0,329,330,5,44,0,0,330,
-        332,5,37,0,0,331,329,1,0,0,0,331,332,1,0,0,0,332,333,1,0,0,0,333,
-        334,5,44,0,0,334,335,5,38,0,0,335,336,5,44,0,0,336,337,3,48,24,0,
-        337,338,5,44,0,0,338,341,5,10,0,0,339,340,5,44,0,0,340,342,5,37,
-        0,0,341,339,1,0,0,0,341,342,1,0,0,0,342,343,1,0,0,0,343,344,5,44,
-        0,0,344,347,5,38,0,0,345,346,5,44,0,0,346,348,5,30,0,0,347,345,1,
-        0,0,0,347,348,1,0,0,0,348,349,1,0,0,0,349,350,5,44,0,0,350,351,5,
-        39,0,0,351,352,5,44,0,0,352,353,5,40,0,0,353,354,5,44,0,0,354,355,
-        5,17,0,0,355,356,5,44,0,0,356,357,3,68,34,0,357,73,1,0,0,0,30,81,
-        89,93,98,103,107,114,121,125,129,133,148,155,161,168,185,220,227,
-        232,245,264,287,293,297,316,320,324,331,341,347
+        3,1,3,3,3,98,8,3,1,4,1,4,3,4,102,8,4,1,5,1,5,3,5,106,8,5,1,6,1,6,
+        3,6,110,8,6,1,7,1,7,3,7,114,8,7,1,8,1,8,1,9,1,9,3,9,120,8,9,1,10,
+        1,10,1,11,1,11,1,12,1,12,1,12,3,12,129,8,12,1,13,1,13,1,13,3,13,
+        134,8,13,1,14,1,14,1,14,1,14,1,14,3,14,141,8,14,1,15,1,15,1,15,1,
+        15,1,15,3,15,148,8,15,1,16,1,16,1,16,1,16,1,17,1,17,1,17,1,17,1,
+        18,1,18,1,18,1,18,1,18,3,18,163,8,18,1,19,1,19,1,19,1,19,1,19,3,
+        19,170,8,19,1,20,1,20,1,20,1,20,1,20,1,20,1,21,1,21,1,21,1,21,1,
+        22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,
+        22,1,22,1,22,1,22,1,22,1,22,1,22,3,22,202,8,22,1,23,1,23,1,23,1,
+        23,1,23,1,23,1,23,1,23,1,23,5,23,213,8,23,10,23,12,23,216,9,23,1,
+        23,1,23,1,23,1,23,1,23,1,24,1,24,1,24,1,24,1,24,1,24,1,24,1,24,1,
+        24,5,24,232,8,24,10,24,12,24,235,9,24,1,24,1,24,1,24,1,24,1,24,1,
+        24,1,24,1,24,1,24,1,25,1,25,1,25,1,25,1,25,1,25,1,25,1,25,1,26,1,
+        26,1,26,1,26,3,26,258,8,26,1,26,1,26,1,26,1,27,1,27,1,27,3,27,266,
+        8,27,1,27,1,27,1,27,1,27,1,27,1,27,1,27,1,27,3,27,276,8,27,1,27,
+        1,27,1,27,1,27,3,27,282,8,27,1,27,1,27,1,27,1,27,1,27,1,27,1,27,
+        1,27,1,27,1,28,1,28,1,28,5,28,296,8,28,10,28,12,28,299,9,28,1,29,
+        1,29,1,29,1,29,1,29,1,29,1,30,1,30,1,30,1,30,1,31,1,31,1,31,5,31,
+        314,8,31,10,31,12,31,317,9,31,1,32,1,32,1,32,1,32,1,32,1,32,1,33,
+        1,33,1,33,5,33,328,8,33,10,33,12,33,331,9,33,1,34,1,34,1,34,3,34,
+        336,8,34,1,34,1,34,3,34,340,8,34,1,35,1,35,1,35,1,35,1,36,1,36,1,
+        36,3,36,349,8,36,1,36,1,36,3,36,353,8,36,1,36,1,36,3,36,357,8,36,
+        1,36,0,0,37,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,
+        38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,0,4,2,0,9,
+        9,26,26,1,0,42,42,2,0,30,30,42,42,1,0,32,34,357,0,74,1,0,0,0,2,89,
+        1,0,0,0,4,93,1,0,0,0,6,97,1,0,0,0,8,101,1,0,0,0,10,105,1,0,0,0,12,
+        109,1,0,0,0,14,113,1,0,0,0,16,115,1,0,0,0,18,119,1,0,0,0,20,121,
+        1,0,0,0,22,123,1,0,0,0,24,125,1,0,0,0,26,130,1,0,0,0,28,135,1,0,
+        0,0,30,142,1,0,0,0,32,149,1,0,0,0,34,153,1,0,0,0,36,157,1,0,0,0,
+        38,164,1,0,0,0,40,171,1,0,0,0,42,177,1,0,0,0,44,201,1,0,0,0,46,203,
+        1,0,0,0,48,222,1,0,0,0,50,245,1,0,0,0,52,257,1,0,0,0,54,262,1,0,
+        0,0,56,292,1,0,0,0,58,300,1,0,0,0,60,306,1,0,0,0,62,310,1,0,0,0,
+        64,318,1,0,0,0,66,324,1,0,0,0,68,332,1,0,0,0,70,341,1,0,0,0,72,345,
+        1,0,0,0,74,81,5,1,0,0,75,82,3,2,1,0,76,82,3,14,7,0,77,82,3,16,8,
+        0,78,82,3,18,9,0,79,82,3,20,10,0,80,82,3,22,11,0,81,75,1,0,0,0,81,
+        76,1,0,0,0,81,77,1,0,0,0,81,78,1,0,0,0,81,79,1,0,0,0,81,80,1,0,0,
+        0,82,83,1,0,0,0,83,84,5,0,0,1,84,1,1,0,0,0,85,90,3,4,2,0,86,90,3,
+        6,3,0,87,90,3,8,4,0,88,90,3,52,26,0,89,85,1,0,0,0,89,86,1,0,0,0,
+        89,87,1,0,0,0,89,88,1,0,0,0,90,3,1,0,0,0,91,94,3,24,12,0,92,94,3,
+        26,13,0,93,91,1,0,0,0,93,92,1,0,0,0,94,5,1,0,0,0,95,98,3,28,14,0,
+        96,98,3,30,15,0,97,95,1,0,0,0,97,96,1,0,0,0,98,7,1,0,0,0,99,102,
+        3,10,5,0,100,102,3,12,6,0,101,99,1,0,0,0,101,100,1,0,0,0,102,9,1,
+        0,0,0,103,106,3,32,16,0,104,106,3,34,17,0,105,103,1,0,0,0,105,104,
+        1,0,0,0,106,11,1,0,0,0,107,110,3,36,18,0,108,110,3,38,19,0,109,107,
+        1,0,0,0,109,108,1,0,0,0,110,13,1,0,0,0,111,114,3,40,20,0,112,114,
+        3,42,21,0,113,111,1,0,0,0,113,112,1,0,0,0,114,15,1,0,0,0,115,116,
+        3,44,22,0,116,17,1,0,0,0,117,120,3,46,23,0,118,120,3,48,24,0,119,
+        117,1,0,0,0,119,118,1,0,0,0,120,19,1,0,0,0,121,122,3,50,25,0,122,
+        21,1,0,0,0,123,124,3,54,27,0,124,23,1,0,0,0,125,128,5,2,0,0,126,
+        127,5,44,0,0,127,129,5,3,0,0,128,126,1,0,0,0,128,129,1,0,0,0,129,
+        25,1,0,0,0,130,133,5,4,0,0,131,132,5,44,0,0,132,134,5,3,0,0,133,
+        131,1,0,0,0,133,134,1,0,0,0,134,27,1,0,0,0,135,136,5,5,0,0,136,137,
+        5,44,0,0,137,140,5,7,0,0,138,139,5,44,0,0,139,141,5,8,0,0,140,138,
+        1,0,0,0,140,141,1,0,0,0,141,29,1,0,0,0,142,143,5,5,0,0,143,144,5,
+        44,0,0,144,147,5,6,0,0,145,146,5,44,0,0,146,148,5,8,0,0,147,145,
+        1,0,0,0,147,148,1,0,0,0,148,31,1,0,0,0,149,150,5,9,0,0,150,151,5,
+        44,0,0,151,152,5,14,0,0,152,33,1,0,0,0,153,154,5,10,0,0,154,155,
+        5,44,0,0,155,156,5,14,0,0,156,35,1,0,0,0,157,158,5,11,0,0,158,159,
+        5,44,0,0,159,162,5,14,0,0,160,161,5,44,0,0,161,163,5,13,0,0,162,
+        160,1,0,0,0,162,163,1,0,0,0,163,37,1,0,0,0,164,165,5,12,0,0,165,
+        166,5,44,0,0,166,169,5,14,0,0,167,168,5,44,0,0,168,170,5,13,0,0,
+        169,167,1,0,0,0,169,170,1,0,0,0,170,39,1,0,0,0,171,172,5,16,0,0,
+        172,173,5,44,0,0,173,174,3,56,28,0,174,175,5,44,0,0,175,176,3,58,
+        29,0,176,41,1,0,0,0,177,178,5,16,0,0,178,179,5,44,0,0,179,180,3,
+        56,28,0,180,43,1,0,0,0,181,182,5,26,0,0,182,183,5,44,0,0,183,184,
+        5,27,0,0,184,185,5,44,0,0,185,186,3,62,31,0,186,187,5,44,0,0,187,
+        188,5,10,0,0,188,189,5,44,0,0,189,190,5,27,0,0,190,202,1,0,0,0,191,
+        192,5,9,0,0,192,193,5,44,0,0,193,194,5,28,0,0,194,195,5,44,0,0,195,
+        196,3,62,31,0,196,197,5,44,0,0,197,198,5,10,0,0,198,199,5,44,0,0,
+        199,200,5,28,0,0,200,202,1,0,0,0,201,181,1,0,0,0,201,191,1,0,0,0,
+        202,45,1,0,0,0,203,204,7,0,0,0,204,205,5,44,0,0,205,206,5,29,0,0,
+        206,207,5,44,0,0,207,214,3,64,32,0,208,209,5,44,0,0,209,210,5,30,
+        0,0,210,211,5,44,0,0,211,213,3,64,32,0,212,208,1,0,0,0,213,216,1,
+        0,0,0,214,212,1,0,0,0,214,215,1,0,0,0,215,217,1,0,0,0,216,214,1,
+        0,0,0,217,218,5,44,0,0,218,219,5,10,0,0,219,220,5,44,0,0,220,221,
+        5,29,0,0,221,47,1,0,0,0,222,223,7,0,0,0,223,224,5,44,0,0,224,225,
+        5,29,0,0,225,226,5,44,0,0,226,233,3,64,32,0,227,228,5,44,0,0,228,
+        229,5,30,0,0,229,230,5,44,0,0,230,232,3,64,32,0,231,227,1,0,0,0,
+        232,235,1,0,0,0,233,231,1,0,0,0,233,234,1,0,0,0,234,236,1,0,0,0,
+        235,233,1,0,0,0,236,237,5,44,0,0,237,238,5,31,0,0,238,239,5,44,0,
+        0,239,240,3,70,35,0,240,241,5,44,0,0,241,242,5,10,0,0,242,243,5,
+        44,0,0,243,244,5,29,0,0,244,49,1,0,0,0,245,246,5,35,0,0,246,247,
+        5,44,0,0,247,248,5,36,0,0,248,249,5,44,0,0,249,250,5,17,0,0,250,
+        251,5,44,0,0,251,252,3,72,36,0,252,51,1,0,0,0,253,254,5,15,0,0,254,
+        255,5,44,0,0,255,258,5,17,0,0,256,258,5,16,0,0,257,253,1,0,0,0,257,
+        256,1,0,0,0,258,259,1,0,0,0,259,260,5,44,0,0,260,261,5,18,0,0,261,
+        53,1,0,0,0,262,265,5,9,0,0,263,264,5,44,0,0,264,266,5,37,0,0,265,
+        263,1,0,0,0,265,266,1,0,0,0,266,267,1,0,0,0,267,268,5,44,0,0,268,
+        269,5,38,0,0,269,270,5,44,0,0,270,271,3,62,31,0,271,272,5,44,0,0,
+        272,275,5,10,0,0,273,274,5,44,0,0,274,276,5,37,0,0,275,273,1,0,0,
+        0,275,276,1,0,0,0,276,277,1,0,0,0,277,278,5,44,0,0,278,281,5,38,
+        0,0,279,280,5,44,0,0,280,282,5,30,0,0,281,279,1,0,0,0,281,282,1,
+        0,0,0,282,283,1,0,0,0,283,284,5,44,0,0,284,285,5,39,0,0,285,286,
+        5,44,0,0,286,287,5,40,0,0,287,288,5,44,0,0,288,289,5,17,0,0,289,
+        290,5,44,0,0,290,291,3,72,36,0,291,55,1,0,0,0,292,297,9,0,0,0,293,
+        294,5,44,0,0,294,296,9,0,0,0,295,293,1,0,0,0,296,299,1,0,0,0,297,
+        295,1,0,0,0,297,298,1,0,0,0,298,57,1,0,0,0,299,297,1,0,0,0,300,301,
+        5,19,0,0,301,302,5,44,0,0,302,303,5,20,0,0,303,304,5,44,0,0,304,
+        305,3,60,30,0,305,59,1,0,0,0,306,307,5,42,0,0,307,308,5,44,0,0,308,
+        309,5,21,0,0,309,61,1,0,0,0,310,315,9,0,0,0,311,312,5,44,0,0,312,
+        314,9,0,0,0,313,311,1,0,0,0,314,317,1,0,0,0,315,313,1,0,0,0,315,
+        316,1,0,0,0,316,63,1,0,0,0,317,315,1,0,0,0,318,319,3,66,33,0,319,
+        320,5,44,0,0,320,321,5,42,0,0,321,322,5,44,0,0,322,323,3,68,34,0,
+        323,65,1,0,0,0,324,329,8,1,0,0,325,326,5,44,0,0,326,328,8,2,0,0,
+        327,325,1,0,0,0,328,331,1,0,0,0,329,327,1,0,0,0,329,330,1,0,0,0,
+        330,67,1,0,0,0,331,329,1,0,0,0,332,335,8,1,0,0,333,334,5,44,0,0,
+        334,336,8,1,0,0,335,333,1,0,0,0,335,336,1,0,0,0,336,339,1,0,0,0,
+        337,338,5,44,0,0,338,340,8,1,0,0,339,337,1,0,0,0,339,340,1,0,0,0,
+        340,69,1,0,0,0,341,342,5,42,0,0,342,343,5,44,0,0,343,344,7,3,0,0,
+        344,71,1,0,0,0,345,348,5,43,0,0,346,347,5,44,0,0,347,349,5,43,0,
+        0,348,346,1,0,0,0,348,349,1,0,0,0,349,352,1,0,0,0,350,351,5,44,0,
+        0,351,353,5,43,0,0,352,350,1,0,0,0,352,353,1,0,0,0,353,356,1,0,0,
+        0,354,355,5,44,0,0,355,357,5,43,0,0,356,354,1,0,0,0,356,357,1,0,
+        0,0,357,73,1,0,0,0,30,81,89,93,97,101,105,109,113,119,128,133,140,
+        147,162,169,201,214,233,257,265,275,281,297,315,329,335,339,348,
+        352,356
     ]
 
 class MedicalSmartGlassesParser ( Parser ):
@@ -166,49 +167,48 @@ class MedicalSmartGlassesParser ( Parser ):
     RULE_command = 0
     RULE_glasses_command = 1
     RULE_frame = 2
-    RULE_u01 = 3
-    RULE_u02 = 4
-    RULE_switch = 5
-    RULE_u03 = 6
-    RULE_u04 = 7
-    RULE_emergency = 8
-    RULE_emergency_launch = 9
-    RULE_emergency_acceptation = 10
-    RULE_u09 = 11
-    RULE_u10 = 12
-    RULE_u11 = 13
-    RULE_u12 = 14
-    RULE_u19 = 15
-    RULE_request_data = 16
-    RULE_u13 = 17
-    RULE_u14 = 18
-    RULE_data = 19
-    RULE_interval = 20
-    RULE_time = 21
-    RULE_protocol = 22
-    RULE_u15 = 23
-    RULE_note = 24
-    RULE_set_medication = 25
-    RULE_u16 = 26
-    RULE_u17 = 27
-    RULE_medication = 28
-    RULE_medicine = 29
-    RULE_unit = 30
-    RULE_timestamp = 31
-    RULE_request_patient = 32
-    RULE_u18 = 33
-    RULE_patient_name = 34
-    RULE_message = 35
-    RULE_u20 = 36
+    RULE_switch = 3
+    RULE_emergency = 4
+    RULE_emergency_launch = 5
+    RULE_emergency_acceptation = 6
+    RULE_request_data = 7
+    RULE_protocol = 8
+    RULE_set_medication = 9
+    RULE_request_patient = 10
+    RULE_message = 11
+    RULE_u01 = 12
+    RULE_u02 = 13
+    RULE_u03 = 14
+    RULE_u04 = 15
+    RULE_u09 = 16
+    RULE_u10 = 17
+    RULE_u11 = 18
+    RULE_u12 = 19
+    RULE_u13 = 20
+    RULE_u14 = 21
+    RULE_u15 = 22
+    RULE_u16 = 23
+    RULE_u17 = 24
+    RULE_u18 = 25
+    RULE_u19 = 26
+    RULE_u20 = 27
+    RULE_data = 28
+    RULE_interval = 29
+    RULE_time = 30
+    RULE_note = 31
+    RULE_medication = 32
+    RULE_medicine = 33
+    RULE_unit = 34
+    RULE_timestamp = 35
+    RULE_patient_name = 36
 
-    ruleNames =  [ "command", "glasses_command", "frame", "u01", "u02", 
-                   "switch", "u03", "u04", "emergency", "emergency_launch", 
-                   "emergency_acceptation", "u09", "u10", "u11", "u12", 
-                   "u19", "request_data", "u13", "u14", "data", "interval", 
-                   "time", "protocol", "u15", "note", "set_medication", 
-                   "u16", "u17", "medication", "medicine", "unit", "timestamp", 
-                   "request_patient", "u18", "patient_name", "message", 
-                   "u20" ]
+    ruleNames =  [ "command", "glasses_command", "frame", "switch", "emergency", 
+                   "emergency_launch", "emergency_acceptation", "request_data", 
+                   "protocol", "set_medication", "request_patient", "message", 
+                   "u01", "u02", "u03", "u04", "u09", "u10", "u11", "u12", 
+                   "u13", "u14", "u15", "u16", "u17", "u18", "u19", "u20", 
+                   "data", "interval", "time", "note", "medication", "medicine", 
+                   "unit", "timestamp", "patient_name" ]
 
     EOF = Token.EOF
     TRIGGER=1
@@ -523,6 +523,540 @@ class MedicalSmartGlassesParser ( Parser ):
         return localctx
 
 
+    class SwitchContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def u03(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U03Context,0)
+
+
+        def u04(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U04Context,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_switch
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSwitch" ):
+                listener.enterSwitch(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSwitch" ):
+                listener.exitSwitch(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSwitch" ):
+                return visitor.visitSwitch(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def switch(self):
+
+        localctx = MedicalSmartGlassesParser.SwitchContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 6, self.RULE_switch)
+        try:
+            self.state = 97
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
+            if la_ == 1:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 95
+                self.u03()
+                pass
+
+            elif la_ == 2:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 96
+                self.u04()
+                pass
+
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class EmergencyContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def emergency_launch(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.Emergency_launchContext,0)
+
+
+        def emergency_acceptation(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.Emergency_acceptationContext,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_emergency
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterEmergency" ):
+                listener.enterEmergency(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitEmergency" ):
+                listener.exitEmergency(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitEmergency" ):
+                return visitor.visitEmergency(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def emergency(self):
+
+        localctx = MedicalSmartGlassesParser.EmergencyContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 8, self.RULE_emergency)
+        try:
+            self.state = 101
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [9, 10]:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 99
+                self.emergency_launch()
+                pass
+            elif token in [11, 12]:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 100
+                self.emergency_acceptation()
+                pass
+            else:
+                raise NoViableAltException(self)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class Emergency_launchContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def u09(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U09Context,0)
+
+
+        def u10(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U10Context,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_emergency_launch
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterEmergency_launch" ):
+                listener.enterEmergency_launch(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitEmergency_launch" ):
+                listener.exitEmergency_launch(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitEmergency_launch" ):
+                return visitor.visitEmergency_launch(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def emergency_launch(self):
+
+        localctx = MedicalSmartGlassesParser.Emergency_launchContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 10, self.RULE_emergency_launch)
+        try:
+            self.state = 105
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [9]:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 103
+                self.u09()
+                pass
+            elif token in [10]:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 104
+                self.u10()
+                pass
+            else:
+                raise NoViableAltException(self)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class Emergency_acceptationContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def u11(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U11Context,0)
+
+
+        def u12(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U12Context,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_emergency_acceptation
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterEmergency_acceptation" ):
+                listener.enterEmergency_acceptation(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitEmergency_acceptation" ):
+                listener.exitEmergency_acceptation(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitEmergency_acceptation" ):
+                return visitor.visitEmergency_acceptation(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def emergency_acceptation(self):
+
+        localctx = MedicalSmartGlassesParser.Emergency_acceptationContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 12, self.RULE_emergency_acceptation)
+        try:
+            self.state = 109
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [11]:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 107
+                self.u11()
+                pass
+            elif token in [12]:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 108
+                self.u12()
+                pass
+            else:
+                raise NoViableAltException(self)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class Request_dataContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def u13(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U13Context,0)
+
+
+        def u14(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U14Context,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_request_data
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterRequest_data" ):
+                listener.enterRequest_data(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitRequest_data" ):
+                listener.exitRequest_data(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitRequest_data" ):
+                return visitor.visitRequest_data(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def request_data(self):
+
+        localctx = MedicalSmartGlassesParser.Request_dataContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 14, self.RULE_request_data)
+        try:
+            self.state = 113
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
+            if la_ == 1:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 111
+                self.u13()
+                pass
+
+            elif la_ == 2:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 112
+                self.u14()
+                pass
+
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ProtocolContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def u15(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U15Context,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_protocol
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterProtocol" ):
+                listener.enterProtocol(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitProtocol" ):
+                listener.exitProtocol(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitProtocol" ):
+                return visitor.visitProtocol(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def protocol(self):
+
+        localctx = MedicalSmartGlassesParser.ProtocolContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 16, self.RULE_protocol)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 115
+            self.u15()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class Set_medicationContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def u16(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U16Context,0)
+
+
+        def u17(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U17Context,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_set_medication
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSet_medication" ):
+                listener.enterSet_medication(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSet_medication" ):
+                listener.exitSet_medication(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSet_medication" ):
+                return visitor.visitSet_medication(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def set_medication(self):
+
+        localctx = MedicalSmartGlassesParser.Set_medicationContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 18, self.RULE_set_medication)
+        try:
+            self.state = 119
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,8,self._ctx)
+            if la_ == 1:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 117
+                self.u16()
+                pass
+
+            elif la_ == 2:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 118
+                self.u17()
+                pass
+
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class Request_patientContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def u18(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U18Context,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_request_patient
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterRequest_patient" ):
+                listener.enterRequest_patient(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitRequest_patient" ):
+                listener.exitRequest_patient(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitRequest_patient" ):
+                return visitor.visitRequest_patient(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def request_patient(self):
+
+        localctx = MedicalSmartGlassesParser.Request_patientContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 20, self.RULE_request_patient)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 121
+            self.u18()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class MessageContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def u20(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.U20Context,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_message
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterMessage" ):
+                listener.enterMessage(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitMessage" ):
+                listener.exitMessage(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitMessage" ):
+                return visitor.visitMessage(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def message(self):
+
+        localctx = MedicalSmartGlassesParser.MessageContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 22, self.RULE_message)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 123
+            self.u20()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
     class U01Context(ParserRuleContext):
         __slots__ = 'parser'
 
@@ -562,19 +1096,19 @@ class MedicalSmartGlassesParser ( Parser ):
     def u01(self):
 
         localctx = MedicalSmartGlassesParser.U01Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_u01)
+        self.enterRule(localctx, 24, self.RULE_u01)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 95
+            self.state = 125
             self.match(MedicalSmartGlassesParser.STOP)
-            self.state = 98
+            self.state = 128
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==44:
-                self.state = 96
+                self.state = 126
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 97
+                self.state = 127
                 self.match(MedicalSmartGlassesParser.FRAME)
 
 
@@ -626,85 +1160,20 @@ class MedicalSmartGlassesParser ( Parser ):
     def u02(self):
 
         localctx = MedicalSmartGlassesParser.U02Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_u02)
+        self.enterRule(localctx, 26, self.RULE_u02)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 100
+            self.state = 130
             self.match(MedicalSmartGlassesParser.CONTINUE)
-            self.state = 103
+            self.state = 133
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==44:
-                self.state = 101
+                self.state = 131
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 102
+                self.state = 132
                 self.match(MedicalSmartGlassesParser.FRAME)
-
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class SwitchContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def u03(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U03Context,0)
-
-
-        def u04(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U04Context,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_switch
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterSwitch" ):
-                listener.enterSwitch(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitSwitch" ):
-                listener.exitSwitch(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitSwitch" ):
-                return visitor.visitSwitch(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def switch(self):
-
-        localctx = MedicalSmartGlassesParser.SwitchContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_switch)
-        try:
-            self.state = 107
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,5,self._ctx)
-            if la_ == 1:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 105
-                self.u03()
-                pass
-
-            elif la_ == 2:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 106
-                self.u04()
-                pass
 
 
         except RecognitionException as re:
@@ -761,23 +1230,23 @@ class MedicalSmartGlassesParser ( Parser ):
     def u03(self):
 
         localctx = MedicalSmartGlassesParser.U03Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_u03)
+        self.enterRule(localctx, 28, self.RULE_u03)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 109
+            self.state = 135
             self.match(MedicalSmartGlassesParser.TURN)
-            self.state = 110
+            self.state = 136
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 111
+            self.state = 137
             self.match(MedicalSmartGlassesParser.OFF)
-            self.state = 114
+            self.state = 140
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==44:
-                self.state = 112
+                self.state = 138
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 113
+                self.state = 139
                 self.match(MedicalSmartGlassesParser.DISPLAY)
 
 
@@ -835,220 +1304,25 @@ class MedicalSmartGlassesParser ( Parser ):
     def u04(self):
 
         localctx = MedicalSmartGlassesParser.U04Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_u04)
+        self.enterRule(localctx, 30, self.RULE_u04)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 116
+            self.state = 142
             self.match(MedicalSmartGlassesParser.TURN)
-            self.state = 117
+            self.state = 143
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 118
+            self.state = 144
             self.match(MedicalSmartGlassesParser.ON)
-            self.state = 121
+            self.state = 147
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==44:
-                self.state = 119
+                self.state = 145
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 120
+                self.state = 146
                 self.match(MedicalSmartGlassesParser.DISPLAY)
 
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class EmergencyContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def emergency_launch(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.Emergency_launchContext,0)
-
-
-        def emergency_acceptation(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.Emergency_acceptationContext,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_emergency
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterEmergency" ):
-                listener.enterEmergency(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitEmergency" ):
-                listener.exitEmergency(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitEmergency" ):
-                return visitor.visitEmergency(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def emergency(self):
-
-        localctx = MedicalSmartGlassesParser.EmergencyContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_emergency)
-        try:
-            self.state = 125
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [9, 10]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 123
-                self.emergency_launch()
-                pass
-            elif token in [11, 12]:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 124
-                self.emergency_acceptation()
-                pass
-            else:
-                raise NoViableAltException(self)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class Emergency_launchContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def u09(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U09Context,0)
-
-
-        def u10(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U10Context,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_emergency_launch
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterEmergency_launch" ):
-                listener.enterEmergency_launch(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitEmergency_launch" ):
-                listener.exitEmergency_launch(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitEmergency_launch" ):
-                return visitor.visitEmergency_launch(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def emergency_launch(self):
-
-        localctx = MedicalSmartGlassesParser.Emergency_launchContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_emergency_launch)
-        try:
-            self.state = 129
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [9]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 127
-                self.u09()
-                pass
-            elif token in [10]:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 128
-                self.u10()
-                pass
-            else:
-                raise NoViableAltException(self)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class Emergency_acceptationContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def u11(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U11Context,0)
-
-
-        def u12(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U12Context,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_emergency_acceptation
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterEmergency_acceptation" ):
-                listener.enterEmergency_acceptation(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitEmergency_acceptation" ):
-                listener.exitEmergency_acceptation(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitEmergency_acceptation" ):
-                return visitor.visitEmergency_acceptation(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def emergency_acceptation(self):
-
-        localctx = MedicalSmartGlassesParser.Emergency_acceptationContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_emergency_acceptation)
-        try:
-            self.state = 133
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [11]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 131
-                self.u11()
-                pass
-            elif token in [12]:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 132
-                self.u12()
-                pass
-            else:
-                raise NoViableAltException(self)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -1098,14 +1372,14 @@ class MedicalSmartGlassesParser ( Parser ):
     def u09(self):
 
         localctx = MedicalSmartGlassesParser.U09Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_u09)
+        self.enterRule(localctx, 32, self.RULE_u09)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 135
+            self.state = 149
             self.match(MedicalSmartGlassesParser.START)
-            self.state = 136
+            self.state = 150
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 137
+            self.state = 151
             self.match(MedicalSmartGlassesParser.EMERGENCY)
         except RecognitionException as re:
             localctx.exception = re
@@ -1155,14 +1429,14 @@ class MedicalSmartGlassesParser ( Parser ):
     def u10(self):
 
         localctx = MedicalSmartGlassesParser.U10Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_u10)
+        self.enterRule(localctx, 34, self.RULE_u10)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 139
+            self.state = 153
             self.match(MedicalSmartGlassesParser.END)
-            self.state = 140
+            self.state = 154
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 141
+            self.state = 155
             self.match(MedicalSmartGlassesParser.EMERGENCY)
         except RecognitionException as re:
             localctx.exception = re
@@ -1218,23 +1492,23 @@ class MedicalSmartGlassesParser ( Parser ):
     def u11(self):
 
         localctx = MedicalSmartGlassesParser.U11Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_u11)
+        self.enterRule(localctx, 36, self.RULE_u11)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 143
+            self.state = 157
             self.match(MedicalSmartGlassesParser.ACCEPT)
-            self.state = 144
+            self.state = 158
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 145
+            self.state = 159
             self.match(MedicalSmartGlassesParser.EMERGENCY)
-            self.state = 148
+            self.state = 162
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==44:
-                self.state = 146
+                self.state = 160
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 147
+                self.state = 161
                 self.match(MedicalSmartGlassesParser.MODE)
 
 
@@ -1292,171 +1566,24 @@ class MedicalSmartGlassesParser ( Parser ):
     def u12(self):
 
         localctx = MedicalSmartGlassesParser.U12Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_u12)
+        self.enterRule(localctx, 38, self.RULE_u12)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 150
+            self.state = 164
             self.match(MedicalSmartGlassesParser.LEAVE)
-            self.state = 151
+            self.state = 165
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 152
+            self.state = 166
             self.match(MedicalSmartGlassesParser.EMERGENCY)
-            self.state = 155
+            self.state = 169
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==44:
-                self.state = 153
-                self.match(MedicalSmartGlassesParser.WS)
-                self.state = 154
-                self.match(MedicalSmartGlassesParser.MODE)
-
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class U19Context(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def WS(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.WS)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.WS, i)
-
-        def MESSAGES(self):
-            return self.getToken(MedicalSmartGlassesParser.MESSAGES, 0)
-
-        def SWITCH(self):
-            return self.getToken(MedicalSmartGlassesParser.SWITCH, 0)
-
-        def TO(self):
-            return self.getToken(MedicalSmartGlassesParser.TO, 0)
-
-        def SHOW(self):
-            return self.getToken(MedicalSmartGlassesParser.SHOW, 0)
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_u19
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterU19" ):
-                listener.enterU19(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitU19" ):
-                listener.exitU19(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitU19" ):
-                return visitor.visitU19(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def u19(self):
-
-        localctx = MedicalSmartGlassesParser.U19Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_u19)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 161
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [15]:
-                self.state = 157
-                self.match(MedicalSmartGlassesParser.SWITCH)
-                self.state = 158
-                self.match(MedicalSmartGlassesParser.WS)
-                self.state = 159
-                self.match(MedicalSmartGlassesParser.TO)
-                pass
-            elif token in [16]:
-                self.state = 160
-                self.match(MedicalSmartGlassesParser.SHOW)
-                pass
-            else:
-                raise NoViableAltException(self)
-
-            self.state = 163
-            self.match(MedicalSmartGlassesParser.WS)
-            self.state = 164
-            self.match(MedicalSmartGlassesParser.MESSAGES)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class Request_dataContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def u13(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U13Context,0)
-
-
-        def u14(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U14Context,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_request_data
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterRequest_data" ):
-                listener.enterRequest_data(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitRequest_data" ):
-                listener.exitRequest_data(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitRequest_data" ):
-                return visitor.visitRequest_data(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def request_data(self):
-
-        localctx = MedicalSmartGlassesParser.Request_dataContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 32, self.RULE_request_data)
-        try:
-            self.state = 168
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,14,self._ctx)
-            if la_ == 1:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 166
-                self.u13()
-                pass
-
-            elif la_ == 2:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 167
-                self.u14()
-                pass
+                self.match(MedicalSmartGlassesParser.WS)
+                self.state = 168
+                self.match(MedicalSmartGlassesParser.MODE)
 
 
         except RecognitionException as re:
@@ -1515,18 +1642,18 @@ class MedicalSmartGlassesParser ( Parser ):
     def u13(self):
 
         localctx = MedicalSmartGlassesParser.U13Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 34, self.RULE_u13)
+        self.enterRule(localctx, 40, self.RULE_u13)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 170
-            self.match(MedicalSmartGlassesParser.SHOW)
             self.state = 171
-            self.match(MedicalSmartGlassesParser.WS)
+            self.match(MedicalSmartGlassesParser.SHOW)
             self.state = 172
-            self.data()
-            self.state = 173
             self.match(MedicalSmartGlassesParser.WS)
+            self.state = 173
+            self.data()
             self.state = 174
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 175
             self.interval()
         except RecognitionException as re:
             localctx.exception = re
@@ -1577,251 +1704,15 @@ class MedicalSmartGlassesParser ( Parser ):
     def u14(self):
 
         localctx = MedicalSmartGlassesParser.U14Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 36, self.RULE_u14)
+        self.enterRule(localctx, 42, self.RULE_u14)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 176
-            self.match(MedicalSmartGlassesParser.SHOW)
             self.state = 177
-            self.match(MedicalSmartGlassesParser.WS)
+            self.match(MedicalSmartGlassesParser.SHOW)
             self.state = 178
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 179
             self.data()
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class DataContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def WS(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.WS)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.WS, i)
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_data
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterData" ):
-                listener.enterData(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitData" ):
-                listener.exitData(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitData" ):
-                return visitor.visitData(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def data(self):
-
-        localctx = MedicalSmartGlassesParser.DataContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 38, self.RULE_data)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 180
-            self.matchWildcard()
-            self.state = 185
-            self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,15,self._ctx)
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt==1:
-                    self.state = 181
-                    self.match(MedicalSmartGlassesParser.WS)
-                    self.state = 182
-                    self.matchWildcard() 
-                self.state = 187
-                self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,15,self._ctx)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class IntervalContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def OF(self):
-            return self.getToken(MedicalSmartGlassesParser.OF, 0)
-
-        def WS(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.WS)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.WS, i)
-
-        def LAST(self):
-            return self.getToken(MedicalSmartGlassesParser.LAST, 0)
-
-        def time(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.TimeContext,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_interval
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterInterval" ):
-                listener.enterInterval(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitInterval" ):
-                listener.exitInterval(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitInterval" ):
-                return visitor.visitInterval(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def interval(self):
-
-        localctx = MedicalSmartGlassesParser.IntervalContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 40, self.RULE_interval)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 188
-            self.match(MedicalSmartGlassesParser.OF)
-            self.state = 189
-            self.match(MedicalSmartGlassesParser.WS)
-            self.state = 190
-            self.match(MedicalSmartGlassesParser.LAST)
-            self.state = 191
-            self.match(MedicalSmartGlassesParser.WS)
-            self.state = 192
-            self.time()
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class TimeContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def INT(self):
-            return self.getToken(MedicalSmartGlassesParser.INT, 0)
-
-        def WS(self):
-            return self.getToken(MedicalSmartGlassesParser.WS, 0)
-
-        def TIME_UNIT(self):
-            return self.getToken(MedicalSmartGlassesParser.TIME_UNIT, 0)
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_time
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterTime" ):
-                listener.enterTime(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitTime" ):
-                listener.exitTime(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitTime" ):
-                return visitor.visitTime(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def time(self):
-
-        localctx = MedicalSmartGlassesParser.TimeContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 42, self.RULE_time)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 194
-            self.match(MedicalSmartGlassesParser.INT)
-            self.state = 195
-            self.match(MedicalSmartGlassesParser.WS)
-            self.state = 196
-            self.match(MedicalSmartGlassesParser.TIME_UNIT)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class ProtocolContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def u15(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U15Context,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_protocol
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterProtocol" ):
-                listener.enterProtocol(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitProtocol" ):
-                listener.exitProtocol(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitProtocol" ):
-                return visitor.visitProtocol(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def protocol(self):
-
-        localctx = MedicalSmartGlassesParser.ProtocolContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 44, self.RULE_protocol)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 198
-            self.u15()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -1892,183 +1783,55 @@ class MedicalSmartGlassesParser ( Parser ):
     def u15(self):
 
         localctx = MedicalSmartGlassesParser.U15Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 46, self.RULE_u15)
+        self.enterRule(localctx, 44, self.RULE_u15)
         try:
-            self.state = 220
+            self.state = 201
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [26]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 200
+                self.state = 181
                 self.match(MedicalSmartGlassesParser.SET)
-                self.state = 201
+                self.state = 182
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 202
+                self.state = 183
                 self.match(MedicalSmartGlassesParser.NOTE)
-                self.state = 203
+                self.state = 184
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 204
+                self.state = 185
                 self.note()
-                self.state = 205
+                self.state = 186
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 206
+                self.state = 187
                 self.match(MedicalSmartGlassesParser.END)
-                self.state = 207
+                self.state = 188
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 208
+                self.state = 189
                 self.match(MedicalSmartGlassesParser.NOTE)
                 pass
             elif token in [9]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 210
+                self.state = 191
                 self.match(MedicalSmartGlassesParser.START)
-                self.state = 211
+                self.state = 192
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 212
+                self.state = 193
                 self.match(MedicalSmartGlassesParser.DOCUMENTATION)
-                self.state = 213
+                self.state = 194
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 214
+                self.state = 195
                 self.note()
-                self.state = 215
+                self.state = 196
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 216
+                self.state = 197
                 self.match(MedicalSmartGlassesParser.END)
-                self.state = 217
+                self.state = 198
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 218
+                self.state = 199
                 self.match(MedicalSmartGlassesParser.DOCUMENTATION)
                 pass
             else:
                 raise NoViableAltException(self)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class NoteContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def WS(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.WS)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.WS, i)
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_note
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterNote" ):
-                listener.enterNote(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitNote" ):
-                listener.exitNote(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitNote" ):
-                return visitor.visitNote(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def note(self):
-
-        localctx = MedicalSmartGlassesParser.NoteContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 48, self.RULE_note)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 222
-            self.matchWildcard()
-            self.state = 227
-            self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,17,self._ctx)
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt==1:
-                    self.state = 223
-                    self.match(MedicalSmartGlassesParser.WS)
-                    self.state = 224
-                    self.matchWildcard() 
-                self.state = 229
-                self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,17,self._ctx)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class Set_medicationContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def u16(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U16Context,0)
-
-
-        def u17(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U17Context,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_set_medication
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterSet_medication" ):
-                listener.enterSet_medication(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitSet_medication" ):
-                listener.exitSet_medication(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitSet_medication" ):
-                return visitor.visitSet_medication(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def set_medication(self):
-
-        localctx = MedicalSmartGlassesParser.Set_medicationContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 50, self.RULE_set_medication)
-        try:
-            self.state = 232
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,18,self._ctx)
-            if la_ == 1:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 230
-                self.u16()
-                pass
-
-            elif la_ == 2:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 231
-                self.u17()
-                pass
-
 
         except RecognitionException as re:
             localctx.exception = re
@@ -2143,49 +1906,49 @@ class MedicalSmartGlassesParser ( Parser ):
     def u16(self):
 
         localctx = MedicalSmartGlassesParser.U16Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 52, self.RULE_u16)
+        self.enterRule(localctx, 46, self.RULE_u16)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 234
+            self.state = 203
             _la = self._input.LA(1)
             if not(_la==9 or _la==26):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 235
+            self.state = 204
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 236
+            self.state = 205
             self.match(MedicalSmartGlassesParser.MEDICATION)
-            self.state = 237
+            self.state = 206
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 238
+            self.state = 207
             self.medication()
-            self.state = 245
+            self.state = 214
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,19,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,16,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 239
+                    self.state = 208
                     self.match(MedicalSmartGlassesParser.WS)
-                    self.state = 240
+                    self.state = 209
                     self.match(MedicalSmartGlassesParser.AND)
-                    self.state = 241
+                    self.state = 210
                     self.match(MedicalSmartGlassesParser.WS)
-                    self.state = 242
+                    self.state = 211
                     self.medication() 
-                self.state = 247
+                self.state = 216
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,19,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,16,self._ctx)
 
-            self.state = 248
+            self.state = 217
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 249
+            self.state = 218
             self.match(MedicalSmartGlassesParser.END)
-            self.state = 250
+            self.state = 219
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 251
+            self.state = 220
             self.match(MedicalSmartGlassesParser.MEDICATION)
         except RecognitionException as re:
             localctx.exception = re
@@ -2267,422 +2030,58 @@ class MedicalSmartGlassesParser ( Parser ):
     def u17(self):
 
         localctx = MedicalSmartGlassesParser.U17Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 54, self.RULE_u17)
+        self.enterRule(localctx, 48, self.RULE_u17)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 253
+            self.state = 222
             _la = self._input.LA(1)
             if not(_la==9 or _la==26):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 254
+            self.state = 223
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 255
+            self.state = 224
             self.match(MedicalSmartGlassesParser.MEDICATION)
-            self.state = 256
+            self.state = 225
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 257
+            self.state = 226
             self.medication()
-            self.state = 264
+            self.state = 233
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,20,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,17,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 258
+                    self.state = 227
                     self.match(MedicalSmartGlassesParser.WS)
-                    self.state = 259
+                    self.state = 228
                     self.match(MedicalSmartGlassesParser.AND)
-                    self.state = 260
+                    self.state = 229
                     self.match(MedicalSmartGlassesParser.WS)
-                    self.state = 261
+                    self.state = 230
                     self.medication() 
-                self.state = 266
+                self.state = 235
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,20,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,17,self._ctx)
 
-            self.state = 267
+            self.state = 236
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 268
+            self.state = 237
             self.match(MedicalSmartGlassesParser.AT)
-            self.state = 269
+            self.state = 238
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 270
+            self.state = 239
             self.timestamp()
-            self.state = 271
+            self.state = 240
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 272
+            self.state = 241
             self.match(MedicalSmartGlassesParser.END)
-            self.state = 273
+            self.state = 242
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 274
+            self.state = 243
             self.match(MedicalSmartGlassesParser.MEDICATION)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class MedicationContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def medicine(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.MedicineContext,0)
-
-
-        def WS(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.WS)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.WS, i)
-
-        def INT(self):
-            return self.getToken(MedicalSmartGlassesParser.INT, 0)
-
-        def unit(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.UnitContext,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_medication
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterMedication" ):
-                listener.enterMedication(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitMedication" ):
-                listener.exitMedication(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitMedication" ):
-                return visitor.visitMedication(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def medication(self):
-
-        localctx = MedicalSmartGlassesParser.MedicationContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 56, self.RULE_medication)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 276
-            self.medicine()
-            self.state = 277
-            self.match(MedicalSmartGlassesParser.WS)
-            self.state = 278
-            self.match(MedicalSmartGlassesParser.INT)
-            self.state = 279
-            self.match(MedicalSmartGlassesParser.WS)
-            self.state = 280
-            self.unit()
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class MedicineContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def INT(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.INT)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.INT, i)
-
-        def WS(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.WS)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.WS, i)
-
-        def AND(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.AND)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.AND, i)
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_medicine
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterMedicine" ):
-                listener.enterMedicine(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitMedicine" ):
-                listener.exitMedicine(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitMedicine" ):
-                return visitor.visitMedicine(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def medicine(self):
-
-        localctx = MedicalSmartGlassesParser.MedicineContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 58, self.RULE_medicine)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 282
-            _la = self._input.LA(1)
-            if _la <= 0 or _la==42:
-                self._errHandler.recoverInline(self)
-            else:
-                self._errHandler.reportMatch(self)
-                self.consume()
-            self.state = 287
-            self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,21,self._ctx)
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt==1:
-                    self.state = 283
-                    self.match(MedicalSmartGlassesParser.WS)
-                    self.state = 284
-                    _la = self._input.LA(1)
-                    if _la <= 0 or _la==30 or _la==42:
-                        self._errHandler.recoverInline(self)
-                    else:
-                        self._errHandler.reportMatch(self)
-                        self.consume() 
-                self.state = 289
-                self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,21,self._ctx)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class UnitContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def INT(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.INT)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.INT, i)
-
-        def WS(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.WS)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.WS, i)
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_unit
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterUnit" ):
-                listener.enterUnit(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitUnit" ):
-                listener.exitUnit(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitUnit" ):
-                return visitor.visitUnit(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def unit(self):
-
-        localctx = MedicalSmartGlassesParser.UnitContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 60, self.RULE_unit)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 290
-            _la = self._input.LA(1)
-            if _la <= 0 or _la==42:
-                self._errHandler.recoverInline(self)
-            else:
-                self._errHandler.reportMatch(self)
-                self.consume()
-            self.state = 293
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,22,self._ctx)
-            if la_ == 1:
-                self.state = 291
-                self.match(MedicalSmartGlassesParser.WS)
-                self.state = 292
-                _la = self._input.LA(1)
-                if _la <= 0 or _la==42:
-                    self._errHandler.recoverInline(self)
-                else:
-                    self._errHandler.reportMatch(self)
-                    self.consume()
-
-
-            self.state = 297
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,23,self._ctx)
-            if la_ == 1:
-                self.state = 295
-                self.match(MedicalSmartGlassesParser.WS)
-                self.state = 296
-                _la = self._input.LA(1)
-                if _la <= 0 or _la==42:
-                    self._errHandler.recoverInline(self)
-                else:
-                    self._errHandler.reportMatch(self)
-                    self.consume()
-
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class TimestampContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def INT(self):
-            return self.getToken(MedicalSmartGlassesParser.INT, 0)
-
-        def WS(self):
-            return self.getToken(MedicalSmartGlassesParser.WS, 0)
-
-        def OCLOCK(self):
-            return self.getToken(MedicalSmartGlassesParser.OCLOCK, 0)
-
-        def PM(self):
-            return self.getToken(MedicalSmartGlassesParser.PM, 0)
-
-        def AM(self):
-            return self.getToken(MedicalSmartGlassesParser.AM, 0)
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_timestamp
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterTimestamp" ):
-                listener.enterTimestamp(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitTimestamp" ):
-                listener.exitTimestamp(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitTimestamp" ):
-                return visitor.visitTimestamp(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def timestamp(self):
-
-        localctx = MedicalSmartGlassesParser.TimestampContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 62, self.RULE_timestamp)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 299
-            self.match(MedicalSmartGlassesParser.INT)
-            self.state = 300
-            self.match(MedicalSmartGlassesParser.WS)
-            self.state = 301
-            _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 30064771072) != 0)):
-                self._errHandler.recoverInline(self)
-            else:
-                self._errHandler.reportMatch(self)
-                self.consume()
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class Request_patientContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def u18(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U18Context,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_request_patient
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterRequest_patient" ):
-                listener.enterRequest_patient(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitRequest_patient" ):
-                listener.exitRequest_patient(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitRequest_patient" ):
-                return visitor.visitRequest_patient(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def request_patient(self):
-
-        localctx = MedicalSmartGlassesParser.Request_patientContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 64, self.RULE_request_patient)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 303
-            self.u18()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -2741,22 +2140,22 @@ class MedicalSmartGlassesParser ( Parser ):
     def u18(self):
 
         localctx = MedicalSmartGlassesParser.U18Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 66, self.RULE_u18)
+        self.enterRule(localctx, 50, self.RULE_u18)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 305
+            self.state = 245
             self.match(MedicalSmartGlassesParser.CHANGE)
-            self.state = 306
+            self.state = 246
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 307
+            self.state = 247
             self.match(MedicalSmartGlassesParser.PATIENT)
-            self.state = 308
+            self.state = 248
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 309
+            self.state = 249
             self.match(MedicalSmartGlassesParser.TO)
-            self.state = 310
+            self.state = 250
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 311
+            self.state = 251
             self.patient_name()
         except RecognitionException as re:
             localctx.exception = re
@@ -2767,18 +2166,12 @@ class MedicalSmartGlassesParser ( Parser ):
         return localctx
 
 
-    class Patient_nameContext(ParserRuleContext):
+    class U19Context(ParserRuleContext):
         __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
-
-        def WORD(self, i:int=None):
-            if i is None:
-                return self.getTokens(MedicalSmartGlassesParser.WORD)
-            else:
-                return self.getToken(MedicalSmartGlassesParser.WORD, i)
 
         def WS(self, i:int=None):
             if i is None:
@@ -2786,113 +2179,66 @@ class MedicalSmartGlassesParser ( Parser ):
             else:
                 return self.getToken(MedicalSmartGlassesParser.WS, i)
 
+        def MESSAGES(self):
+            return self.getToken(MedicalSmartGlassesParser.MESSAGES, 0)
+
+        def SWITCH(self):
+            return self.getToken(MedicalSmartGlassesParser.SWITCH, 0)
+
+        def TO(self):
+            return self.getToken(MedicalSmartGlassesParser.TO, 0)
+
+        def SHOW(self):
+            return self.getToken(MedicalSmartGlassesParser.SHOW, 0)
+
         def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_patient_name
+            return MedicalSmartGlassesParser.RULE_u19
 
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterPatient_name" ):
-                listener.enterPatient_name(self)
+            if hasattr( listener, "enterU19" ):
+                listener.enterU19(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitPatient_name" ):
-                listener.exitPatient_name(self)
+            if hasattr( listener, "exitU19" ):
+                listener.exitU19(self)
 
         def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitPatient_name" ):
-                return visitor.visitPatient_name(self)
+            if hasattr( visitor, "visitU19" ):
+                return visitor.visitU19(self)
             else:
                 return visitor.visitChildren(self)
 
 
 
 
-    def patient_name(self):
+    def u19(self):
 
-        localctx = MedicalSmartGlassesParser.Patient_nameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 68, self.RULE_patient_name)
-        self._la = 0 # Token type
+        localctx = MedicalSmartGlassesParser.U19Context(self, self._ctx, self.state)
+        self.enterRule(localctx, 52, self.RULE_u19)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 313
-            self.match(MedicalSmartGlassesParser.WORD)
-            self.state = 316
+            self.state = 257
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,24,self._ctx)
-            if la_ == 1:
-                self.state = 314
+            token = self._input.LA(1)
+            if token in [15]:
+                self.state = 253
+                self.match(MedicalSmartGlassesParser.SWITCH)
+                self.state = 254
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 315
-                self.match(MedicalSmartGlassesParser.WORD)
-
-
-            self.state = 320
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,25,self._ctx)
-            if la_ == 1:
-                self.state = 318
-                self.match(MedicalSmartGlassesParser.WS)
-                self.state = 319
-                self.match(MedicalSmartGlassesParser.WORD)
-
-
-            self.state = 324
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            if _la==44:
-                self.state = 322
-                self.match(MedicalSmartGlassesParser.WS)
-                self.state = 323
-                self.match(MedicalSmartGlassesParser.WORD)
-
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class MessageContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def u20(self):
-            return self.getTypedRuleContext(MedicalSmartGlassesParser.U20Context,0)
-
-
-        def getRuleIndex(self):
-            return MedicalSmartGlassesParser.RULE_message
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterMessage" ):
-                listener.enterMessage(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitMessage" ):
-                listener.exitMessage(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitMessage" ):
-                return visitor.visitMessage(self)
+                self.state = 255
+                self.match(MedicalSmartGlassesParser.TO)
+                pass
+            elif token in [16]:
+                self.state = 256
+                self.match(MedicalSmartGlassesParser.SHOW)
+                pass
             else:
-                return visitor.visitChildren(self)
+                raise NoViableAltException(self)
 
-
-
-
-    def message(self):
-
-        localctx = MedicalSmartGlassesParser.MessageContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 70, self.RULE_message)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 326
-            self.u20()
+            self.state = 259
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 260
+            self.match(MedicalSmartGlassesParser.MESSAGES)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -2976,73 +2322,727 @@ class MedicalSmartGlassesParser ( Parser ):
     def u20(self):
 
         localctx = MedicalSmartGlassesParser.U20Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 72, self.RULE_u20)
+        self.enterRule(localctx, 54, self.RULE_u20)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 328
+            self.state = 262
             self.match(MedicalSmartGlassesParser.START)
-            self.state = 331
+            self.state = 265
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,27,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,19,self._ctx)
             if la_ == 1:
-                self.state = 329
+                self.state = 263
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 330
+                self.state = 264
                 self.match(MedicalSmartGlassesParser.NEW)
 
 
-            self.state = 333
+            self.state = 267
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 334
+            self.state = 268
             self.match(MedicalSmartGlassesParser.MESSAGE)
-            self.state = 335
+            self.state = 269
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 336
+            self.state = 270
             self.note()
-            self.state = 337
+            self.state = 271
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 338
+            self.state = 272
             self.match(MedicalSmartGlassesParser.END)
-            self.state = 341
+            self.state = 275
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,28,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,20,self._ctx)
             if la_ == 1:
-                self.state = 339
+                self.state = 273
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 340
+                self.state = 274
                 self.match(MedicalSmartGlassesParser.NEW)
 
 
-            self.state = 343
+            self.state = 277
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 344
+            self.state = 278
             self.match(MedicalSmartGlassesParser.MESSAGE)
-            self.state = 347
+            self.state = 281
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,29,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,21,self._ctx)
             if la_ == 1:
-                self.state = 345
+                self.state = 279
                 self.match(MedicalSmartGlassesParser.WS)
-                self.state = 346
+                self.state = 280
                 self.match(MedicalSmartGlassesParser.AND)
 
 
-            self.state = 349
+            self.state = 283
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 350
+            self.state = 284
             self.match(MedicalSmartGlassesParser.SEND)
-            self.state = 351
+            self.state = 285
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 352
+            self.state = 286
             self.match(MedicalSmartGlassesParser.IT)
-            self.state = 353
+            self.state = 287
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 354
+            self.state = 288
             self.match(MedicalSmartGlassesParser.TO)
-            self.state = 355
+            self.state = 289
             self.match(MedicalSmartGlassesParser.WS)
-            self.state = 356
+            self.state = 290
             self.patient_name()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class DataContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def WS(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.WS)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.WS, i)
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_data
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterData" ):
+                listener.enterData(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitData" ):
+                listener.exitData(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitData" ):
+                return visitor.visitData(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def data(self):
+
+        localctx = MedicalSmartGlassesParser.DataContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 56, self.RULE_data)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 292
+            self.matchWildcard()
+            self.state = 297
+            self._errHandler.sync(self)
+            _alt = self._interp.adaptivePredict(self._input,22,self._ctx)
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt==1:
+                    self.state = 293
+                    self.match(MedicalSmartGlassesParser.WS)
+                    self.state = 294
+                    self.matchWildcard() 
+                self.state = 299
+                self._errHandler.sync(self)
+                _alt = self._interp.adaptivePredict(self._input,22,self._ctx)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class IntervalContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def OF(self):
+            return self.getToken(MedicalSmartGlassesParser.OF, 0)
+
+        def WS(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.WS)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.WS, i)
+
+        def LAST(self):
+            return self.getToken(MedicalSmartGlassesParser.LAST, 0)
+
+        def time(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.TimeContext,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_interval
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterInterval" ):
+                listener.enterInterval(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitInterval" ):
+                listener.exitInterval(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitInterval" ):
+                return visitor.visitInterval(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def interval(self):
+
+        localctx = MedicalSmartGlassesParser.IntervalContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 58, self.RULE_interval)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 300
+            self.match(MedicalSmartGlassesParser.OF)
+            self.state = 301
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 302
+            self.match(MedicalSmartGlassesParser.LAST)
+            self.state = 303
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 304
+            self.time()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class TimeContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def INT(self):
+            return self.getToken(MedicalSmartGlassesParser.INT, 0)
+
+        def WS(self):
+            return self.getToken(MedicalSmartGlassesParser.WS, 0)
+
+        def TIME_UNIT(self):
+            return self.getToken(MedicalSmartGlassesParser.TIME_UNIT, 0)
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_time
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterTime" ):
+                listener.enterTime(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitTime" ):
+                listener.exitTime(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitTime" ):
+                return visitor.visitTime(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def time(self):
+
+        localctx = MedicalSmartGlassesParser.TimeContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 60, self.RULE_time)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 306
+            self.match(MedicalSmartGlassesParser.INT)
+            self.state = 307
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 308
+            self.match(MedicalSmartGlassesParser.TIME_UNIT)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class NoteContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def WS(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.WS)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.WS, i)
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_note
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterNote" ):
+                listener.enterNote(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitNote" ):
+                listener.exitNote(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitNote" ):
+                return visitor.visitNote(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def note(self):
+
+        localctx = MedicalSmartGlassesParser.NoteContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 62, self.RULE_note)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 310
+            self.matchWildcard()
+            self.state = 315
+            self._errHandler.sync(self)
+            _alt = self._interp.adaptivePredict(self._input,23,self._ctx)
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt==1:
+                    self.state = 311
+                    self.match(MedicalSmartGlassesParser.WS)
+                    self.state = 312
+                    self.matchWildcard() 
+                self.state = 317
+                self._errHandler.sync(self)
+                _alt = self._interp.adaptivePredict(self._input,23,self._ctx)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class MedicationContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def medicine(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.MedicineContext,0)
+
+
+        def WS(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.WS)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.WS, i)
+
+        def INT(self):
+            return self.getToken(MedicalSmartGlassesParser.INT, 0)
+
+        def unit(self):
+            return self.getTypedRuleContext(MedicalSmartGlassesParser.UnitContext,0)
+
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_medication
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterMedication" ):
+                listener.enterMedication(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitMedication" ):
+                listener.exitMedication(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitMedication" ):
+                return visitor.visitMedication(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def medication(self):
+
+        localctx = MedicalSmartGlassesParser.MedicationContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 64, self.RULE_medication)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 318
+            self.medicine()
+            self.state = 319
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 320
+            self.match(MedicalSmartGlassesParser.INT)
+            self.state = 321
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 322
+            self.unit()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class MedicineContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def INT(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.INT)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.INT, i)
+
+        def WS(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.WS)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.WS, i)
+
+        def AND(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.AND)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.AND, i)
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_medicine
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterMedicine" ):
+                listener.enterMedicine(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitMedicine" ):
+                listener.exitMedicine(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitMedicine" ):
+                return visitor.visitMedicine(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def medicine(self):
+
+        localctx = MedicalSmartGlassesParser.MedicineContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 66, self.RULE_medicine)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 324
+            _la = self._input.LA(1)
+            if _la <= 0 or _la==42:
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+            self.state = 329
+            self._errHandler.sync(self)
+            _alt = self._interp.adaptivePredict(self._input,24,self._ctx)
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt==1:
+                    self.state = 325
+                    self.match(MedicalSmartGlassesParser.WS)
+                    self.state = 326
+                    _la = self._input.LA(1)
+                    if _la <= 0 or _la==30 or _la==42:
+                        self._errHandler.recoverInline(self)
+                    else:
+                        self._errHandler.reportMatch(self)
+                        self.consume() 
+                self.state = 331
+                self._errHandler.sync(self)
+                _alt = self._interp.adaptivePredict(self._input,24,self._ctx)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class UnitContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def INT(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.INT)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.INT, i)
+
+        def WS(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.WS)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.WS, i)
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_unit
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterUnit" ):
+                listener.enterUnit(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitUnit" ):
+                listener.exitUnit(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitUnit" ):
+                return visitor.visitUnit(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def unit(self):
+
+        localctx = MedicalSmartGlassesParser.UnitContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 68, self.RULE_unit)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 332
+            _la = self._input.LA(1)
+            if _la <= 0 or _la==42:
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+            self.state = 335
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,25,self._ctx)
+            if la_ == 1:
+                self.state = 333
+                self.match(MedicalSmartGlassesParser.WS)
+                self.state = 334
+                _la = self._input.LA(1)
+                if _la <= 0 or _la==42:
+                    self._errHandler.recoverInline(self)
+                else:
+                    self._errHandler.reportMatch(self)
+                    self.consume()
+
+
+            self.state = 339
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,26,self._ctx)
+            if la_ == 1:
+                self.state = 337
+                self.match(MedicalSmartGlassesParser.WS)
+                self.state = 338
+                _la = self._input.LA(1)
+                if _la <= 0 or _la==42:
+                    self._errHandler.recoverInline(self)
+                else:
+                    self._errHandler.reportMatch(self)
+                    self.consume()
+
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class TimestampContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def INT(self):
+            return self.getToken(MedicalSmartGlassesParser.INT, 0)
+
+        def WS(self):
+            return self.getToken(MedicalSmartGlassesParser.WS, 0)
+
+        def OCLOCK(self):
+            return self.getToken(MedicalSmartGlassesParser.OCLOCK, 0)
+
+        def PM(self):
+            return self.getToken(MedicalSmartGlassesParser.PM, 0)
+
+        def AM(self):
+            return self.getToken(MedicalSmartGlassesParser.AM, 0)
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_timestamp
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterTimestamp" ):
+                listener.enterTimestamp(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitTimestamp" ):
+                listener.exitTimestamp(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitTimestamp" ):
+                return visitor.visitTimestamp(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def timestamp(self):
+
+        localctx = MedicalSmartGlassesParser.TimestampContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 70, self.RULE_timestamp)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 341
+            self.match(MedicalSmartGlassesParser.INT)
+            self.state = 342
+            self.match(MedicalSmartGlassesParser.WS)
+            self.state = 343
+            _la = self._input.LA(1)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 30064771072) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class Patient_nameContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def WORD(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.WORD)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.WORD, i)
+
+        def WS(self, i:int=None):
+            if i is None:
+                return self.getTokens(MedicalSmartGlassesParser.WS)
+            else:
+                return self.getToken(MedicalSmartGlassesParser.WS, i)
+
+        def getRuleIndex(self):
+            return MedicalSmartGlassesParser.RULE_patient_name
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterPatient_name" ):
+                listener.enterPatient_name(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitPatient_name" ):
+                listener.exitPatient_name(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitPatient_name" ):
+                return visitor.visitPatient_name(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def patient_name(self):
+
+        localctx = MedicalSmartGlassesParser.Patient_nameContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 72, self.RULE_patient_name)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 345
+            self.match(MedicalSmartGlassesParser.WORD)
+            self.state = 348
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,27,self._ctx)
+            if la_ == 1:
+                self.state = 346
+                self.match(MedicalSmartGlassesParser.WS)
+                self.state = 347
+                self.match(MedicalSmartGlassesParser.WORD)
+
+
+            self.state = 352
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,28,self._ctx)
+            if la_ == 1:
+                self.state = 350
+                self.match(MedicalSmartGlassesParser.WS)
+                self.state = 351
+                self.match(MedicalSmartGlassesParser.WORD)
+
+
+            self.state = 356
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==44:
+                self.state = 354
+                self.match(MedicalSmartGlassesParser.WS)
+                self.state = 355
+                self.match(MedicalSmartGlassesParser.WORD)
+
+
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)

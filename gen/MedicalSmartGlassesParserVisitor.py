@@ -24,28 +24,8 @@ class MedicalSmartGlassesParserVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u01.
-    def visitU01(self, ctx:MedicalSmartGlassesParser.U01Context):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u02.
-    def visitU02(self, ctx:MedicalSmartGlassesParser.U02Context):
-        return self.visitChildren(ctx)
-
-
     # Visit a parse tree produced by MedicalSmartGlassesParser#switch.
     def visitSwitch(self, ctx:MedicalSmartGlassesParser.SwitchContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u03.
-    def visitU03(self, ctx:MedicalSmartGlassesParser.U03Context):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u04.
-    def visitU04(self, ctx:MedicalSmartGlassesParser.U04Context):
         return self.visitChildren(ctx)
 
 
@@ -61,6 +41,51 @@ class MedicalSmartGlassesParserVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by MedicalSmartGlassesParser#emergency_acceptation.
     def visitEmergency_acceptation(self, ctx:MedicalSmartGlassesParser.Emergency_acceptationContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#request_data.
+    def visitRequest_data(self, ctx:MedicalSmartGlassesParser.Request_dataContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#protocol.
+    def visitProtocol(self, ctx:MedicalSmartGlassesParser.ProtocolContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#set_medication.
+    def visitSet_medication(self, ctx:MedicalSmartGlassesParser.Set_medicationContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#request_patient.
+    def visitRequest_patient(self, ctx:MedicalSmartGlassesParser.Request_patientContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#message.
+    def visitMessage(self, ctx:MedicalSmartGlassesParser.MessageContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u01.
+    def visitU01(self, ctx:MedicalSmartGlassesParser.U01Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u02.
+    def visitU02(self, ctx:MedicalSmartGlassesParser.U02Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u03.
+    def visitU03(self, ctx:MedicalSmartGlassesParser.U03Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u04.
+    def visitU04(self, ctx:MedicalSmartGlassesParser.U04Context):
         return self.visitChildren(ctx)
 
 
@@ -84,16 +109,6 @@ class MedicalSmartGlassesParserVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u19.
-    def visitU19(self, ctx:MedicalSmartGlassesParser.U19Context):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#request_data.
-    def visitRequest_data(self, ctx:MedicalSmartGlassesParser.Request_dataContext):
-        return self.visitChildren(ctx)
-
-
     # Visit a parse tree produced by MedicalSmartGlassesParser#u13.
     def visitU13(self, ctx:MedicalSmartGlassesParser.U13Context):
         return self.visitChildren(ctx)
@@ -101,6 +116,36 @@ class MedicalSmartGlassesParserVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by MedicalSmartGlassesParser#u14.
     def visitU14(self, ctx:MedicalSmartGlassesParser.U14Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u15.
+    def visitU15(self, ctx:MedicalSmartGlassesParser.U15Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u16.
+    def visitU16(self, ctx:MedicalSmartGlassesParser.U16Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u17.
+    def visitU17(self, ctx:MedicalSmartGlassesParser.U17Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u18.
+    def visitU18(self, ctx:MedicalSmartGlassesParser.U18Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u19.
+    def visitU19(self, ctx:MedicalSmartGlassesParser.U19Context):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MedicalSmartGlassesParser#u20.
+    def visitU20(self, ctx:MedicalSmartGlassesParser.U20Context):
         return self.visitChildren(ctx)
 
 
@@ -119,33 +164,8 @@ class MedicalSmartGlassesParserVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by MedicalSmartGlassesParser#protocol.
-    def visitProtocol(self, ctx:MedicalSmartGlassesParser.ProtocolContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u15.
-    def visitU15(self, ctx:MedicalSmartGlassesParser.U15Context):
-        return self.visitChildren(ctx)
-
-
     # Visit a parse tree produced by MedicalSmartGlassesParser#note.
     def visitNote(self, ctx:MedicalSmartGlassesParser.NoteContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#set_medication.
-    def visitSet_medication(self, ctx:MedicalSmartGlassesParser.Set_medicationContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u16.
-    def visitU16(self, ctx:MedicalSmartGlassesParser.U16Context):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u17.
-    def visitU17(self, ctx:MedicalSmartGlassesParser.U17Context):
         return self.visitChildren(ctx)
 
 
@@ -169,28 +189,8 @@ class MedicalSmartGlassesParserVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by MedicalSmartGlassesParser#request_patient.
-    def visitRequest_patient(self, ctx:MedicalSmartGlassesParser.Request_patientContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u18.
-    def visitU18(self, ctx:MedicalSmartGlassesParser.U18Context):
-        return self.visitChildren(ctx)
-
-
     # Visit a parse tree produced by MedicalSmartGlassesParser#patient_name.
     def visitPatient_name(self, ctx:MedicalSmartGlassesParser.Patient_nameContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#message.
-    def visitMessage(self, ctx:MedicalSmartGlassesParser.MessageContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by MedicalSmartGlassesParser#u20.
-    def visitU20(self, ctx:MedicalSmartGlassesParser.U20Context):
         return self.visitChildren(ctx)
 
 

@@ -35,48 +35,12 @@ class MedicalSmartGlassesParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u01.
-    def enterU01(self, ctx:MedicalSmartGlassesParser.U01Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u01.
-    def exitU01(self, ctx:MedicalSmartGlassesParser.U01Context):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u02.
-    def enterU02(self, ctx:MedicalSmartGlassesParser.U02Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u02.
-    def exitU02(self, ctx:MedicalSmartGlassesParser.U02Context):
-        pass
-
-
     # Enter a parse tree produced by MedicalSmartGlassesParser#switch.
     def enterSwitch(self, ctx:MedicalSmartGlassesParser.SwitchContext):
         pass
 
     # Exit a parse tree produced by MedicalSmartGlassesParser#switch.
     def exitSwitch(self, ctx:MedicalSmartGlassesParser.SwitchContext):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u03.
-    def enterU03(self, ctx:MedicalSmartGlassesParser.U03Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u03.
-    def exitU03(self, ctx:MedicalSmartGlassesParser.U03Context):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u04.
-    def enterU04(self, ctx:MedicalSmartGlassesParser.U04Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u04.
-    def exitU04(self, ctx:MedicalSmartGlassesParser.U04Context):
         pass
 
 
@@ -104,6 +68,87 @@ class MedicalSmartGlassesParserListener(ParseTreeListener):
 
     # Exit a parse tree produced by MedicalSmartGlassesParser#emergency_acceptation.
     def exitEmergency_acceptation(self, ctx:MedicalSmartGlassesParser.Emergency_acceptationContext):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#request_data.
+    def enterRequest_data(self, ctx:MedicalSmartGlassesParser.Request_dataContext):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#request_data.
+    def exitRequest_data(self, ctx:MedicalSmartGlassesParser.Request_dataContext):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#protocol.
+    def enterProtocol(self, ctx:MedicalSmartGlassesParser.ProtocolContext):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#protocol.
+    def exitProtocol(self, ctx:MedicalSmartGlassesParser.ProtocolContext):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#set_medication.
+    def enterSet_medication(self, ctx:MedicalSmartGlassesParser.Set_medicationContext):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#set_medication.
+    def exitSet_medication(self, ctx:MedicalSmartGlassesParser.Set_medicationContext):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#request_patient.
+    def enterRequest_patient(self, ctx:MedicalSmartGlassesParser.Request_patientContext):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#request_patient.
+    def exitRequest_patient(self, ctx:MedicalSmartGlassesParser.Request_patientContext):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#message.
+    def enterMessage(self, ctx:MedicalSmartGlassesParser.MessageContext):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#message.
+    def exitMessage(self, ctx:MedicalSmartGlassesParser.MessageContext):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u01.
+    def enterU01(self, ctx:MedicalSmartGlassesParser.U01Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u01.
+    def exitU01(self, ctx:MedicalSmartGlassesParser.U01Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u02.
+    def enterU02(self, ctx:MedicalSmartGlassesParser.U02Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u02.
+    def exitU02(self, ctx:MedicalSmartGlassesParser.U02Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u03.
+    def enterU03(self, ctx:MedicalSmartGlassesParser.U03Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u03.
+    def exitU03(self, ctx:MedicalSmartGlassesParser.U03Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u04.
+    def enterU04(self, ctx:MedicalSmartGlassesParser.U04Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u04.
+    def exitU04(self, ctx:MedicalSmartGlassesParser.U04Context):
         pass
 
 
@@ -143,24 +188,6 @@ class MedicalSmartGlassesParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u19.
-    def enterU19(self, ctx:MedicalSmartGlassesParser.U19Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u19.
-    def exitU19(self, ctx:MedicalSmartGlassesParser.U19Context):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#request_data.
-    def enterRequest_data(self, ctx:MedicalSmartGlassesParser.Request_dataContext):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#request_data.
-    def exitRequest_data(self, ctx:MedicalSmartGlassesParser.Request_dataContext):
-        pass
-
-
     # Enter a parse tree produced by MedicalSmartGlassesParser#u13.
     def enterU13(self, ctx:MedicalSmartGlassesParser.U13Context):
         pass
@@ -176,6 +203,60 @@ class MedicalSmartGlassesParserListener(ParseTreeListener):
 
     # Exit a parse tree produced by MedicalSmartGlassesParser#u14.
     def exitU14(self, ctx:MedicalSmartGlassesParser.U14Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u15.
+    def enterU15(self, ctx:MedicalSmartGlassesParser.U15Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u15.
+    def exitU15(self, ctx:MedicalSmartGlassesParser.U15Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u16.
+    def enterU16(self, ctx:MedicalSmartGlassesParser.U16Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u16.
+    def exitU16(self, ctx:MedicalSmartGlassesParser.U16Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u17.
+    def enterU17(self, ctx:MedicalSmartGlassesParser.U17Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u17.
+    def exitU17(self, ctx:MedicalSmartGlassesParser.U17Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u18.
+    def enterU18(self, ctx:MedicalSmartGlassesParser.U18Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u18.
+    def exitU18(self, ctx:MedicalSmartGlassesParser.U18Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u19.
+    def enterU19(self, ctx:MedicalSmartGlassesParser.U19Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u19.
+    def exitU19(self, ctx:MedicalSmartGlassesParser.U19Context):
+        pass
+
+
+    # Enter a parse tree produced by MedicalSmartGlassesParser#u20.
+    def enterU20(self, ctx:MedicalSmartGlassesParser.U20Context):
+        pass
+
+    # Exit a parse tree produced by MedicalSmartGlassesParser#u20.
+    def exitU20(self, ctx:MedicalSmartGlassesParser.U20Context):
         pass
 
 
@@ -206,57 +287,12 @@ class MedicalSmartGlassesParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by MedicalSmartGlassesParser#protocol.
-    def enterProtocol(self, ctx:MedicalSmartGlassesParser.ProtocolContext):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#protocol.
-    def exitProtocol(self, ctx:MedicalSmartGlassesParser.ProtocolContext):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u15.
-    def enterU15(self, ctx:MedicalSmartGlassesParser.U15Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u15.
-    def exitU15(self, ctx:MedicalSmartGlassesParser.U15Context):
-        pass
-
-
     # Enter a parse tree produced by MedicalSmartGlassesParser#note.
     def enterNote(self, ctx:MedicalSmartGlassesParser.NoteContext):
         pass
 
     # Exit a parse tree produced by MedicalSmartGlassesParser#note.
     def exitNote(self, ctx:MedicalSmartGlassesParser.NoteContext):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#set_medication.
-    def enterSet_medication(self, ctx:MedicalSmartGlassesParser.Set_medicationContext):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#set_medication.
-    def exitSet_medication(self, ctx:MedicalSmartGlassesParser.Set_medicationContext):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u16.
-    def enterU16(self, ctx:MedicalSmartGlassesParser.U16Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u16.
-    def exitU16(self, ctx:MedicalSmartGlassesParser.U16Context):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u17.
-    def enterU17(self, ctx:MedicalSmartGlassesParser.U17Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u17.
-    def exitU17(self, ctx:MedicalSmartGlassesParser.U17Context):
         pass
 
 
@@ -296,48 +332,12 @@ class MedicalSmartGlassesParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by MedicalSmartGlassesParser#request_patient.
-    def enterRequest_patient(self, ctx:MedicalSmartGlassesParser.Request_patientContext):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#request_patient.
-    def exitRequest_patient(self, ctx:MedicalSmartGlassesParser.Request_patientContext):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u18.
-    def enterU18(self, ctx:MedicalSmartGlassesParser.U18Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u18.
-    def exitU18(self, ctx:MedicalSmartGlassesParser.U18Context):
-        pass
-
-
     # Enter a parse tree produced by MedicalSmartGlassesParser#patient_name.
     def enterPatient_name(self, ctx:MedicalSmartGlassesParser.Patient_nameContext):
         pass
 
     # Exit a parse tree produced by MedicalSmartGlassesParser#patient_name.
     def exitPatient_name(self, ctx:MedicalSmartGlassesParser.Patient_nameContext):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#message.
-    def enterMessage(self, ctx:MedicalSmartGlassesParser.MessageContext):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#message.
-    def exitMessage(self, ctx:MedicalSmartGlassesParser.MessageContext):
-        pass
-
-
-    # Enter a parse tree produced by MedicalSmartGlassesParser#u20.
-    def enterU20(self, ctx:MedicalSmartGlassesParser.U20Context):
-        pass
-
-    # Exit a parse tree produced by MedicalSmartGlassesParser#u20.
-    def exitU20(self, ctx:MedicalSmartGlassesParser.U20Context):
         pass
 
 

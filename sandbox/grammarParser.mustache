@@ -1,0 +1,26 @@
+//Generated with mustache framework
+
+parser grammar {{grammarName}}Parser;
+
+options {
+    tokenVocab = {{grammarName}}Lexer;
+}
+
+//root rule
+command: TRIGGER ({{alternativeOfClasses}}) EOF;
+
+{{#innerNodes}}
+// Parser rules
+{{nodeName}} : {{alternativeOfSubclasses}} ;
+{{/innerNodes}}
+
+{{#commands}}
+// Parser rules
+{{commandName}} : {{command}} ;
+{{/commands}}
+
+{{#commandParts}}
+// Parser rules
+{{commandPartName}} : {{commandPart}} ;
+{{/commandParts}}
+
