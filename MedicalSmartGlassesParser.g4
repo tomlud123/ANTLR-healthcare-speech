@@ -1,5 +1,3 @@
-//parser generate with: antlr4 -Dlanguage=Python3 -visitor MedicalSmartGlassesParser.g4
-//TODO: create test for every command u01-u20
 //command requirements: https://git-st.inf.tu-dresden.de/tooz/launcher/-/wikis/Functional-Testcases-Speech
 
 parser grammar MedicalSmartGlassesParser;
@@ -62,7 +60,3 @@ patient_name: WORD (WS WORD)? (WS WORD)? (WS WORD)?;
 //message: ;
 message: u20;
 u20: START (WS NEW)? WS MESSAGE WS note WS END (WS NEW)? WS MESSAGE (WS AND)? WS SEND WS IT WS TO WS patient_name;
-
-//content_word: STOP | FRAME | CONTINUE | TURN | ON | OFF | DISPLAY | START | ACCEPT | LEAVE | EMERGENCY
-//| SWITCH | SHOW | TO | MESSAGES | OF | LAST | TIME_UNIT | DAY | HOUR | MINUTE | S | SET | NOTE | DOCUMENTATION
-//| MEDICATION | AT | OCLOCK | CHANGE | PATIENT | NEW | MESSAGE | SEND | IT | INT | WORD;

@@ -14,4 +14,4 @@ mv "${grammar_name}Lexer.interp" "./gen"
 mv "${grammar_name}Lexer.tokens" "./gen"
 mv "${grammar_name}Lexer.py" "./gen"
 
-read -p "Grammar compilation finished. Press any key"
+read -p "${grammar_name}-grammar compilation finished. Press any key"
