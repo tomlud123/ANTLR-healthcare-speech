@@ -6,11 +6,18 @@ visitor = CaisMeVisitor()
 
 class CommandToJsonTest(unittest.TestCase):
 
-    def test_trigger(self):
+    def test_general(self):
         output = get_json("")
         self.assertEqual(output, {})
+        very_long_input = "ok glasses"*1000
+        output = get_json(very_long_input)
+        self.assertEqual(output, {})
+        output = get_json(very_long_input+" stop frame")
+        self.assertEqual(output['content'], "STOP_FRAME")
         output = get_json("asd asd  l 8394y tp9284 p9y qp9t8yp98y 89y2p 87y 23t9tyg ")
         self.assertEqual(output, {})
+
+    def test_trigger(self):
         output = get_json("okay glasses")
         self.assertEqual(output, {})
         output = get_json("okay glasses stop frame okay glasses")

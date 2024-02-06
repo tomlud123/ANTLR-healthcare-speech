@@ -52,8 +52,11 @@ NEW: 'new';
 MESSAGE: 'message';
 SEND: 'send';
 IT: 'it';
-PLEASE: 'please';
 
 INT: [0-9]+;
 WORD: [a-zA-Z]+;
 WS : [ \t\r\n]+;
+PLEASE: ' please' -> skip ;
+THE : ' the ' -> skip ;
+A : ' a ' -> skip ;
+I_WANT_TO : 'i want to ' -> skip ;
