@@ -63,7 +63,7 @@ def add_terminal_input():
 
 
 synonyms = {
-    "stój": "stop",
+    "present": "show",
     # Add more pairs as needed
 }
 

@@ -6,8 +6,8 @@ grammar_name="MedicalSmartGlasses"
 find "./gen/" -mindepth 1 -delete
 
 ## Run the command that generates files in the base directory
-antlr4 -Dlanguage=Python3 MedicalSmartGlassesLexer.g4
-antlr4 -Dlanguage=Python3 -visitor -o "./gen" MedicalSmartGlassesParser.g4
+antlr4 -Dlanguage=Python3 ${grammar_name}Lexer.g4
+antlr4 -Dlanguage=Python3 -visitor -o "./gen" ${grammar_name}Parser.g4
 
 ## Move the generated files to the specified folder (assuming they are directly in the base directory)
 mv "${grammar_name}Lexer.interp" "./gen"
