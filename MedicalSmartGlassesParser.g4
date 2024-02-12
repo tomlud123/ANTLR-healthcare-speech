@@ -35,7 +35,7 @@ u15: SET WS NOTE WS note WS END WS NOTE | START WS DOCUMENTATION WS note WS END 
 u16: trig_medication WS MEDICATION medications WS END WS MEDICATION;
 u17: trig_medication WS MEDICATION medications WS AT WS timestamp WS END WS MEDICATION;
 u18: CHANGE WS PATIENT WS TO WS patient_name;
-u19: (SWITCH WS TO | SHOW) WS MESSAGES;
+u19: trig_message WS MESSAGES;
 u20: START (WS NEW)? WS MESSAGE WS note WS END (WS NEW)? WS MESSAGE (WS AND)? WS SEND WS IT WS TO WS patient_name;
 
 data: . (WS .)*;
@@ -49,3 +49,4 @@ medicine: ~INT (WS ~(INT | AND))*;
 unit: ~INT (WS ~INT)? (WS ~INT)?;
 timestamp: INT WS (OCLOCK | PM | AM);
 patient_name: WORD (WS WORD)? (WS WORD)? (WS WORD)?;
+trig_message: (SWITCH WS TO | SHOW);
