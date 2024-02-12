@@ -8,7 +8,7 @@ options {
 
 command: TRIGGER (glasses_command | request_data | protocol | set_medication | request_patient | message) EOF;
 
-//glasses_command, commands U05-U08 from doc are skipped (need not determined)
+//commands U05-U08 from doc are skipped (need not determined)
 glasses_command: frame | switch | emergency | u19;
 frame: u01 | u02;
 switch: u03 | u04;
@@ -32,8 +32,8 @@ u12: LEAVE WS EMERGENCY (WS MODE)?;
 u13: SHOW WS data WS interval;
 u14: SHOW WS data;
 u15: SET WS NOTE WS note WS END WS NOTE | START WS DOCUMENTATION WS note WS END WS DOCUMENTATION;
-u16: (SET | START) WS MEDICATION WS medication (WS AND WS medication)* WS END WS MEDICATION;
-u17: (SET | START) WS MEDICATION WS medication (WS AND WS medication)* WS AT WS timestamp WS END WS MEDICATION;
+u16: trig_medication WS MEDICATION medications WS END WS MEDICATION;
+u17: trig_medication WS MEDICATION medications WS AT WS timestamp WS END WS MEDICATION;
 u18: CHANGE WS PATIENT WS TO WS patient_name;
 u19: (SWITCH WS TO | SHOW) WS MESSAGES;
 u20: START (WS NEW)? WS MESSAGE WS note WS END (WS NEW)? WS MESSAGE (WS AND)? WS SEND WS IT WS TO WS patient_name;
@@ -42,6 +42,8 @@ data: . (WS .)*;
 interval: OF WS LAST WS time;
 time: INT WS TIME_UNIT;
 note: . (WS .)*;
+trig_medication: (SET | START);
+medications: WS medication (WS AND WS medication)*;
 medication: medicine WS INT WS unit;
 medicine: ~INT (WS ~(INT | AND))*;
 unit: ~INT (WS ~INT)? (WS ~INT)?;

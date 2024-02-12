@@ -9,17 +9,17 @@ options {
 //root rule
 command: TRIGGER ({{alternativeOfClasses}}) EOF;
 
-{{#innerNodes}}
+{{#classes}}
 // Parser rules
-{{nodeName}} : {{alternativeOfSubclasses}} ;
-{{/innerNodes}}
+{{className}} : {{alternativeOfSubclasses}} ;
+{{/classes}}
 
 {{#commands}}
 // Parser rules
 {{commandName}} : {{command}} ;
 {{/commands}}
 
-{{#commandParts}}
+{{#phrases}}
 // Parser rules
-{{commandPartName}} : {{commandPart}} ;
-{{/commandParts}}
+{{phraseName}} : {{phrase}} ;
+{{/phrases}}

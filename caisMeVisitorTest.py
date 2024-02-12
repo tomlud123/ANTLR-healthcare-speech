@@ -130,13 +130,13 @@ class CommandToJsonTest(unittest.TestCase):
         self.assertEqual(output['content'], "bed 12 is empty")
 
     def test_U16(self):
-        output = get_json("OK Glasses, set medication fresh water, 200 millilitres, and a pill of ibuprofen 600mg, end medication")
+        output = get_json("OK Glasses, set medication fresh water, 200 millilitres, and pill of ibuprofen 600mg, end medication")
         self.assertEqual(output['type'], "MEDICATION")
         self.assertEqual(len(output['content']), 2)
         self.assertEqual(output['content'][0]['medicine'], "fresh water")
         self.assertEqual(output['content'][0]['quantity'], "200")
         self.assertEqual(output['content'][0]['unit'], "millilitres")
-        self.assertEqual(output['content'][1]['medicine'], "a pill of ibuprofen")
+        self.assertEqual(output['content'][1]['medicine'], "pill of ibuprofen")
         self.assertEqual(output['content'][1]['quantity'], "600")
         output = get_json("OK Glasses, set medication fresh water, 200 millilitres, and a pill of ibuprofen 600mg ok glasses, end medication")
         self.assertEqual(output, {})
@@ -147,14 +147,14 @@ class CommandToJsonTest(unittest.TestCase):
 
 
     def test_U17(self):
-        output = get_json("OK Glasses, set medication water, 1 cup, and a pill of ibuprofen 600mg at 11 o'clock, end medication")
+        output = get_json("OK Glasses, set medication water, 1 cup, and pill of ibuprofen 600mg at 11 o'clock, end medication")
         self.assertEqual(output['type'], "MEDICATION")
         self.assertEqual(output['time'].startswith("11"), True)
         self.assertEqual(len(output['content']), 2)
         self.assertEqual(output['content'][0]['medicine'], "water")
         self.assertEqual(output['content'][0]['quantity'], "1")
         self.assertEqual(output['content'][0]['unit'], "cup")
-        self.assertEqual(output['content'][1]['medicine'], "a pill of ibuprofen")
+        self.assertEqual(output['content'][1]['medicine'], "pill of ibuprofen")
         self.assertEqual(output['content'][1]['quantity'], "600")
         output = get_json("OK Glasses, set medication vitamins 1000 pills at 5 o'clock end medication")
         self.assertEqual(output['content'][0]['medicine'], "vitamins")

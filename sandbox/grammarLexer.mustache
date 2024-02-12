@@ -2,10 +2,10 @@ lexer grammar {{grammarName}}Lexer;
 
 TRIGGER: {{trigger}};
 
-{{#lexerRules}}
+{{#words}}
 // Parser rules
-{{ruleName}} : {{definition}} ;
-{{/lexerRules}}
+{{word}} : {{definition}} ;
+{{/words}}
 
 
 INT: [0-9]+;

@@ -17,7 +17,7 @@ LEAVE: 'leave';
 MODE: 'mode';
 EMERGENCY: 'emergency';
 SWITCH: 'switch';
-SHOW: 'show';
+SHOW: ('show' | 'present');
 TO: 'to';
 MESSAGES: 'messages';
 
@@ -57,6 +57,6 @@ INT: [0-9]+;
 WORD: [a-zA-Z]+;
 WS : [ \t\r\n]+;
 PLEASE: ' please' -> skip ;
-THE : ' the ' -> skip ;
-A : ' a ' -> skip ;
+THE : ' the ' -> type(WS) ;
+A : ' a ' -> type(WS) ;
 I_WANT_TO : 'i want to ' -> skip ;

@@ -90,11 +90,11 @@ class CaisMeVisitor(MedicalSmartGlassesParserVisitor):
 
     def visitU16(self, ctx):
         self.json_dict['type'] = 'MEDICATION'
-        elements = len(ctx.medication())
+        elements = len(ctx.medications().medication())
         content = []
         for i in range(elements):
             medication = {}
-            node = ctx.medication()[i]
+            node = ctx.medications().medication()[i]
             medication['medicine'] = node.medicine().getText()
             medication['quantity'] = node.INT().getText()
             medication['unit'] = node.unit().getText()
@@ -105,11 +105,11 @@ class CaisMeVisitor(MedicalSmartGlassesParserVisitor):
         self.json_dict['type'] = 'MEDICATION'
         time = ctx.timestamp().getText().replace(" oclock", ":00")
         self.json_dict['time'] = time
-        elements = len(ctx.medication())
+        elements = len(ctx.medications().medication())
         content = []
         for i in range(elements):
             medication = {}
-            node = ctx.medication()[i]
+            node = ctx.medications().medication()[i]
             medication['medicine'] = node.medicine().getText()
             medication['quantity'] = node.INT().getText()
             medication['unit'] = node.unit().getText()
