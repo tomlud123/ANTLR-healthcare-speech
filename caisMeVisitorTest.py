@@ -144,6 +144,9 @@ class CommandToJsonTest(unittest.TestCase):
         self.assertEqual(output['content'][0]['medicine'], "vitamins")
         output = get_json("OK Glasses, set medication vitamins 1 pill and lek 20 g and aspirin 2 liters end medication")
         self.assertEqual(output['content'][2]['quantity'], "2")
+        output = get_json("ok glasses set medication dada 2 pills and 1 cup of water end medication")
+        self.assertEqual(output['content'][1]['medicine'], "water")
+        self.assertEqual(output['content'][1]['unit'], "cup")
 
 
     def test_U17(self):

@@ -153,6 +153,7 @@ def parse(input_string):
 
 
 def preprocess(input_text):
+    #conversion of numbers written with letters into usual numbers notation is missing
     TRIGGER = "ok glasses"
     input_text = input_text.lower()
     input_text = re.sub(r'[^\w\s]', '', input_text)
@@ -183,7 +184,7 @@ def get_json(command_str):
 
 
 if __name__ == "__main__":
-    input = "OK Glasses, set medication fresh water, 200 millilitres, and a pill of ibuprofen 600mg, end medication"
+    input = "OK Glasses, show weather information of last 2 days"
     if len(sys.argv) > 1:
         input = sys.argv[1]
     json_dict = get_json(input)

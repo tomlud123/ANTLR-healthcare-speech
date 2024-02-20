@@ -44,7 +44,7 @@ time: INT WS TIME_UNIT;
 note: . (WS .)*;
 trig_medication: (SET | START);
 medications: WS medication (WS AND WS medication)*;
-medication: medicine WS INT WS unit;
+medication: (medicine WS INT WS unit | INT WS unit WS OF WS medicine);
 medicine: ~INT (WS ~(INT | AND))*;
 unit: ~INT (WS ~INT)? (WS ~INT)?;
 timestamp: INT WS (OCLOCK | PM | AM);
