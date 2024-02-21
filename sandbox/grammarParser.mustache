@@ -7,19 +7,16 @@ options {
 }
 
 //root rule
-command: TRIGGER ({{disjunctionOfClasses}}) EOF;
+command: TRIGGER ({{alternationOfClasses}}) EOF;
 
 {{#classes}}
-// Parser rules
-{{className}} : {{disjunctionOfSubclasses}} ;
+{{className}} : {{alternationOfSubclasses}} ;
 {{/classes}}
 
 {{#commands}}
-// Parser rules
 {{commandName}} : {{command}} ;
 {{/commands}}
 
 {{#phrases}}
-// Parser rules
 {{phraseName}} : {{phrase}} ;
 {{/phrases}}

@@ -63,7 +63,6 @@ def add_terminal_input():
 
 
 synonyms = {
-    "present": "show",
     # Add more pairs as needed
 }
 

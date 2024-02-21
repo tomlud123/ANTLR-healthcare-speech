@@ -184,7 +184,7 @@ def get_json(command_str):
 
 
 if __name__ == "__main__":
-    input = "OK Glasses, show weather information of last 2 days"
+    input = "OK Glasses, blablabla"
     if len(sys.argv) > 1:
         input = sys.argv[1]
     json_dict = get_json(input)

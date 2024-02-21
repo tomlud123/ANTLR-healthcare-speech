@@ -1,5 +1,4 @@
 import argparse
-import json
 import re
 
 from antlr4 import CommonTokenStream, InputStream
@@ -7,7 +6,7 @@ from antlr4.tree.Trees import Trees
 
 from gen.MedicalSmartGlassesLexer import MedicalSmartGlassesLexer
 from gen.MedicalSmartGlassesParser import MedicalSmartGlassesParser
-from synonymFinder import check_command
+
 
 # script for experiments
 def print_tree(input_text):
