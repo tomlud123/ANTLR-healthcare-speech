@@ -89,14 +89,14 @@ invalid_commands = {
     # "Continue frame": "continue_frame",
     # "Security alert unauthorized access in the pharmacy": "start_emergency",
     # "Attention please start emergency": "start_emergency",
+    "Agree emergency": "u11",
     "Pause the frame": "u01",
     "Resume the current frame": "u02",
     "turn on the display": "u04",
-    "gib mir daten": "u14",
 }
 
 # Extract unique words from the grammar
-grammar_words = {'stop', 'frame', 'continue', 'request', 'show', 'give', 'get', 'present', 'display', 'session', 'turn'}
+grammar_words = {'stop', 'accept', 'frame', 'continue', 'request', 'show', 'give', 'get', 'present', 'display', 'session', 'turn'}
 
 
 if __name__ == "__main__":

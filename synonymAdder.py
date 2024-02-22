@@ -64,6 +64,9 @@ def add_terminal_input():
 
 synonyms = {
     # Add more pairs as needed
+    "agree": "accept",
+    "pause": "stop",
+
 }
 
 if __name__ == "__main__":

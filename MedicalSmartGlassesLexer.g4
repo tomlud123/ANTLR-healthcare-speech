@@ -3,7 +3,7 @@ lexer grammar MedicalSmartGlassesLexer;
 TRIGGER: ('ok glasses '|'okay glasses ');
 
 //glasses_command
-STOP: 'stop';
+STOP: ('stop' | 'hold');
 FRAME: 'frame';
 CONTINUE: 'continue';
 TURN: 'turn';
