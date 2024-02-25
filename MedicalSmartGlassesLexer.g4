@@ -55,8 +55,8 @@ IT: 'it';
 
 INT: [0-9]+;
 WORD: [a-zA-Z]+;
-WS : [ \t\r\n]+;
-PLEASE: ' please' -> skip ;
-THE : ' the ' -> type(WS) ;
-A : ' a ' -> type(WS) ;
-I_WANT_TO : 'i want to ' -> skip ;
+WS : [ \t\r\n]+ -> skip;
+PLEASE: 'please' -> skip ;
+THE : 'the' -> skip ;
+A : 'a' -> skip ;
+I_WANT_TO : 'i want to' -> skip ;
