@@ -11,7 +11,7 @@ ON: 'on';
 OFF: 'off';
 DISPLAY: 'display';
 START: 'start';
-END: 'end';
+FINISH: 'finish';
 ACCEPT: 'accept';
 LEAVE: 'leave';
 MODE: 'mode';
