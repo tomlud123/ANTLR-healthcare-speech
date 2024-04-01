@@ -9,17 +9,17 @@ options {
 command: TRIGGER (glasses_command | request_data | protocol | set_medication | request_patient | message) EOF;
 
 //commands U05-U08 from doc are skipped (need not determined)
-glasses_command: frame | switch | emergency | u19;
-frame: u01 | u02;
-switch: u03 | u04;
-emergency: emergency_launch | emergency_acceptation;
-emergency_launch: u09 | u10;
-emergency_acceptation: u11 | u12;
-request_data: u13 | u14 ;
-protocol: u15;
-set_medication: u16 | u17;
-request_patient: u18 ;
-message: u20;
+glasses_command: (frame | switch | emergency | u19);
+frame: (u01 | u02);
+switch: (u03 | u04);
+emergency: (emergency_launch | emergency_acceptation);
+emergency_launch: (u09 | u10);
+emergency_acceptation: (u11 | u12);
+request_data: (u13 | u14);
+protocol: (u15);
+set_medication: (u16 | u17);
+request_patient: (u18);
+message: (u20);
 
 u01: STOP (FRAME)?;
 u02: CONTINUE (FRAME)?;
