@@ -9,7 +9,7 @@ ruleName: ID;
 ruleBody: command | phrase;
 command: abstractCMD | concreteCMD;
 abstractCMD: phrase* '(' command ( '|' command )+ ')' ( '*' | '+' | '?' )? phrase*;
-concreteCMD: phrase* '('? ( phrase+ ( '|' phrase+ )* ) ')'? ( '*' | '+' | '?' )? phrase*;
+concreteCMD: phrase* '('? phrase+ ( '|' phrase+ )* ')'? ( '*' | '+' | '?' )? phrase*;
 phrase : ID | TOKEN | '.' | '~' phrase | phrase phrase | phrase '|' phrase | '(' phrase ')' | phrase ('*' | '+' | '?') ;
 
 TOKEN: [A-Z]+;

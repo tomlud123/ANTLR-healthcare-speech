@@ -69,7 +69,7 @@ def get_json(command_str):
 
 
 if __name__ == "__main__":
-    input = "OK Glasses, set medication fresh water 1 cup and aspirin 200 milliliters at 10 oclock end medication"
+    input = "OK Glasses, set medication fresh water 1 cup and aspirin 200 milliliters at 10 oclock finish medication"
     if len(sys.argv) > 1:
         input = sys.argv[1]
     json_dict = get_json(input)
