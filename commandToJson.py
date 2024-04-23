@@ -6,8 +6,9 @@ import sys
 
 from antlr4 import *
 from antlr4.error.ErrorStrategy import DefaultErrorStrategy
-from antlr4.error.Errors import InputMismatchException
 from antlr4.tree.Trees import Trees
+from word2number import w2n
+
 
 from CaisMeVisitor import CaisMeVisitor
 from gen.MedicalSmartGlassesLexer import MedicalSmartGlassesLexer
@@ -52,8 +53,14 @@ def prevalidate(input_text):
 
 def normalize(input_text):
     # conversion of numbers written with letters into usual numbers notation is missing
-    input_text = input_text.lower()
-    input_text = re.sub(r'[^\w\s]', '', input_text)
+    input_text = input_text.lower()  # lowercase
+    input_text = re.sub(r'[^\w\s]', '', input_text)  # no punctuation
+
+    # Use regular expression to insert whitespace between letters and numbers
+    input_text = re.sub(r'([a-zA-Z])(\d)', r'\1 \2', input_text)
+    input_text = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', input_text)  # whitespace between nums and alphabetic
+
+    #TODO: convert numbs in letters to ints
 
     # Cut off text BEFORE 'ok glasses'
     input_text = input_text.replace("okay", "ok")
@@ -75,15 +82,16 @@ def get_json(command_str):
         prevalidate(command_str)
         parse_tree = parse(normalize(command_str))
     except RecognitionException as e:
-        logging.info("Provided input doesn't match the grammar: " + (e.args[0] if e.args[0] else ""))
+        logging.info("Provided input doesn't match the grammar" + (": "+e.args[0] if e.args[0] else ""))
         parse_tree = None
     visitor.visit(parse_tree)
     return visitor.get_json_dict()
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)  # Configure root logger
-    input = "okay GlaSsES stop frame"
+    logging.basicConfig(level=logging.INFO, format='%(message)s')
+    logging.getLogger().addHandler(logging.FileHandler('logfile.txt'))
+    input = "okay GlaSsES stop1 frame machine five hundred nine"
     if len(sys.argv) > 1:
         input = sys.argv[1]
     json_dict = get_json(input)
