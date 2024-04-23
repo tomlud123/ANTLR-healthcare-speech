@@ -191,7 +191,7 @@ class CommandToJsonTest(unittest.TestCase):
         output = get_json("ok glasses start new message hello what's up patient 1 James is fine finish new message send it to John Kowal Kowalski")
         self.assertEqual(output['type'], "MESSAGE")
         self.assertEqual(output['to'].title(), "john kowal kowalski".title())
-        self.assertEqual(output['content'], preprocess("hello what's up patient 1 James is fine"))
+        self.assertEqual(output['content'], normalize("hello what's up patient 1 James is fine"))
 
 
 if __name__ == '__main__':
