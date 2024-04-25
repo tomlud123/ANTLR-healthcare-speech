@@ -34,81 +34,81 @@ def serializedATN():
         1,34,1,34,1,34,3,34,268,8,34,1,35,1,35,5,35,272,8,35,10,35,12,35,
         275,9,35,1,36,1,36,3,36,279,8,36,1,36,3,36,282,8,36,1,37,1,37,1,
         37,1,38,1,38,3,38,289,8,38,1,38,3,38,292,8,38,1,38,3,38,295,8,38,
-        1,39,1,39,1,39,3,39,300,8,39,1,39,0,0,40,0,2,4,6,8,10,12,14,16,18,
-        20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,
-        64,66,68,70,72,74,76,78,0,4,2,0,9,9,26,26,1,0,41,41,2,0,30,30,41,
-        41,1,0,32,34,297,0,80,1,0,0,0,2,95,1,0,0,0,4,99,1,0,0,0,6,103,1,
-        0,0,0,8,107,1,0,0,0,10,111,1,0,0,0,12,115,1,0,0,0,14,119,1,0,0,0,
-        16,121,1,0,0,0,18,125,1,0,0,0,20,127,1,0,0,0,22,129,1,0,0,0,24,131,
-        1,0,0,0,26,135,1,0,0,0,28,139,1,0,0,0,30,144,1,0,0,0,32,149,1,0,
-        0,0,34,152,1,0,0,0,36,155,1,0,0,0,38,160,1,0,0,0,40,165,1,0,0,0,
-        42,169,1,0,0,0,44,184,1,0,0,0,46,186,1,0,0,0,48,192,1,0,0,0,50,200,
-        1,0,0,0,52,205,1,0,0,0,54,208,1,0,0,0,56,227,1,0,0,0,58,234,1,0,
-        0,0,60,238,1,0,0,0,62,241,1,0,0,0,64,248,1,0,0,0,66,250,1,0,0,0,
-        68,267,1,0,0,0,70,269,1,0,0,0,72,276,1,0,0,0,74,283,1,0,0,0,76,286,
-        1,0,0,0,78,299,1,0,0,0,80,87,5,1,0,0,81,88,3,2,1,0,82,88,3,14,7,
-        0,83,88,3,16,8,0,84,88,3,18,9,0,85,88,3,20,10,0,86,88,3,22,11,0,
-        87,81,1,0,0,0,87,82,1,0,0,0,87,83,1,0,0,0,87,84,1,0,0,0,87,85,1,
-        0,0,0,87,86,1,0,0,0,88,89,1,0,0,0,89,90,5,0,0,1,90,1,1,0,0,0,91,
-        96,3,4,2,0,92,96,3,6,3,0,93,96,3,8,4,0,94,96,3,52,26,0,95,91,1,0,
-        0,0,95,92,1,0,0,0,95,93,1,0,0,0,95,94,1,0,0,0,96,3,1,0,0,0,97,100,
-        3,24,12,0,98,100,3,26,13,0,99,97,1,0,0,0,99,98,1,0,0,0,100,5,1,0,
-        0,0,101,104,3,28,14,0,102,104,3,30,15,0,103,101,1,0,0,0,103,102,
-        1,0,0,0,104,7,1,0,0,0,105,108,3,10,5,0,106,108,3,12,6,0,107,105,
-        1,0,0,0,107,106,1,0,0,0,108,9,1,0,0,0,109,112,3,32,16,0,110,112,
-        3,34,17,0,111,109,1,0,0,0,111,110,1,0,0,0,112,11,1,0,0,0,113,116,
-        3,36,18,0,114,116,3,38,19,0,115,113,1,0,0,0,115,114,1,0,0,0,116,
-        13,1,0,0,0,117,120,3,40,20,0,118,120,3,42,21,0,119,117,1,0,0,0,119,
-        118,1,0,0,0,120,15,1,0,0,0,121,122,3,44,22,0,122,17,1,0,0,0,123,
-        126,3,46,23,0,124,126,3,48,24,0,125,123,1,0,0,0,125,124,1,0,0,0,
-        126,19,1,0,0,0,127,128,3,50,25,0,128,21,1,0,0,0,129,130,3,54,27,
-        0,130,23,1,0,0,0,131,133,5,2,0,0,132,134,5,3,0,0,133,132,1,0,0,0,
-        133,134,1,0,0,0,134,25,1,0,0,0,135,137,5,4,0,0,136,138,5,3,0,0,137,
-        136,1,0,0,0,137,138,1,0,0,0,138,27,1,0,0,0,139,140,5,5,0,0,140,142,
-        5,7,0,0,141,143,5,8,0,0,142,141,1,0,0,0,142,143,1,0,0,0,143,29,1,
-        0,0,0,144,145,5,5,0,0,145,147,5,6,0,0,146,148,5,8,0,0,147,146,1,
-        0,0,0,147,148,1,0,0,0,148,31,1,0,0,0,149,150,5,9,0,0,150,151,5,14,
-        0,0,151,33,1,0,0,0,152,153,5,10,0,0,153,154,5,14,0,0,154,35,1,0,
-        0,0,155,156,5,11,0,0,156,158,5,14,0,0,157,159,5,13,0,0,158,157,1,
-        0,0,0,158,159,1,0,0,0,159,37,1,0,0,0,160,161,5,12,0,0,161,163,5,
-        14,0,0,162,164,5,13,0,0,163,162,1,0,0,0,163,164,1,0,0,0,164,39,1,
-        0,0,0,165,166,5,16,0,0,166,167,3,56,28,0,167,168,3,58,29,0,168,41,
-        1,0,0,0,169,170,5,16,0,0,170,171,3,56,28,0,171,43,1,0,0,0,172,173,
-        5,26,0,0,173,174,5,27,0,0,174,175,3,62,31,0,175,176,5,10,0,0,176,
-        177,5,27,0,0,177,185,1,0,0,0,178,179,5,9,0,0,179,180,5,28,0,0,180,
-        181,3,62,31,0,181,182,5,10,0,0,182,183,5,28,0,0,183,185,1,0,0,0,
-        184,172,1,0,0,0,184,178,1,0,0,0,185,45,1,0,0,0,186,187,3,64,32,0,
-        187,188,5,29,0,0,188,189,3,66,33,0,189,190,5,10,0,0,190,191,5,29,
-        0,0,191,47,1,0,0,0,192,193,3,64,32,0,193,194,5,29,0,0,194,195,3,
-        66,33,0,195,196,5,31,0,0,196,197,3,74,37,0,197,198,5,10,0,0,198,
-        199,5,29,0,0,199,49,1,0,0,0,200,201,5,35,0,0,201,202,5,36,0,0,202,
-        203,5,17,0,0,203,204,3,76,38,0,204,51,1,0,0,0,205,206,3,78,39,0,
-        206,207,5,18,0,0,207,53,1,0,0,0,208,210,5,9,0,0,209,211,5,37,0,0,
-        210,209,1,0,0,0,210,211,1,0,0,0,211,212,1,0,0,0,212,213,5,38,0,0,
-        213,214,3,62,31,0,214,216,5,10,0,0,215,217,5,37,0,0,216,215,1,0,
-        0,0,216,217,1,0,0,0,217,218,1,0,0,0,218,220,5,38,0,0,219,221,5,30,
-        0,0,220,219,1,0,0,0,220,221,1,0,0,0,221,222,1,0,0,0,222,223,5,39,
-        0,0,223,224,5,40,0,0,224,225,5,17,0,0,225,226,3,76,38,0,226,55,1,
-        0,0,0,227,231,9,0,0,0,228,230,9,0,0,0,229,228,1,0,0,0,230,233,1,
-        0,0,0,231,229,1,0,0,0,231,232,1,0,0,0,232,57,1,0,0,0,233,231,1,0,
-        0,0,234,235,5,19,0,0,235,236,5,20,0,0,236,237,3,60,30,0,237,59,1,
-        0,0,0,238,239,5,41,0,0,239,240,5,21,0,0,240,61,1,0,0,0,241,245,9,
-        0,0,0,242,244,9,0,0,0,243,242,1,0,0,0,244,247,1,0,0,0,245,243,1,
-        0,0,0,245,246,1,0,0,0,246,63,1,0,0,0,247,245,1,0,0,0,248,249,7,0,
-        0,0,249,65,1,0,0,0,250,255,3,68,34,0,251,252,5,30,0,0,252,254,3,
-        68,34,0,253,251,1,0,0,0,254,257,1,0,0,0,255,253,1,0,0,0,255,256,
+        1,39,1,39,1,39,3,39,300,8,39,1,39,2,231,245,0,40,0,2,4,6,8,10,12,
+        14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,
+        58,60,62,64,66,68,70,72,74,76,78,0,4,2,0,9,9,26,26,1,0,46,46,2,0,
+        30,30,46,46,1,0,32,34,297,0,80,1,0,0,0,2,95,1,0,0,0,4,99,1,0,0,0,
+        6,103,1,0,0,0,8,107,1,0,0,0,10,111,1,0,0,0,12,115,1,0,0,0,14,119,
+        1,0,0,0,16,121,1,0,0,0,18,125,1,0,0,0,20,127,1,0,0,0,22,129,1,0,
+        0,0,24,131,1,0,0,0,26,135,1,0,0,0,28,139,1,0,0,0,30,144,1,0,0,0,
+        32,149,1,0,0,0,34,152,1,0,0,0,36,155,1,0,0,0,38,160,1,0,0,0,40,165,
+        1,0,0,0,42,169,1,0,0,0,44,184,1,0,0,0,46,186,1,0,0,0,48,192,1,0,
+        0,0,50,200,1,0,0,0,52,205,1,0,0,0,54,208,1,0,0,0,56,227,1,0,0,0,
+        58,234,1,0,0,0,60,238,1,0,0,0,62,241,1,0,0,0,64,248,1,0,0,0,66,250,
+        1,0,0,0,68,267,1,0,0,0,70,269,1,0,0,0,72,276,1,0,0,0,74,283,1,0,
+        0,0,76,286,1,0,0,0,78,299,1,0,0,0,80,87,5,1,0,0,81,88,3,2,1,0,82,
+        88,3,14,7,0,83,88,3,16,8,0,84,88,3,18,9,0,85,88,3,20,10,0,86,88,
+        3,22,11,0,87,81,1,0,0,0,87,82,1,0,0,0,87,83,1,0,0,0,87,84,1,0,0,
+        0,87,85,1,0,0,0,87,86,1,0,0,0,88,89,1,0,0,0,89,90,5,0,0,1,90,1,1,
+        0,0,0,91,96,3,4,2,0,92,96,3,6,3,0,93,96,3,8,4,0,94,96,3,52,26,0,
+        95,91,1,0,0,0,95,92,1,0,0,0,95,93,1,0,0,0,95,94,1,0,0,0,96,3,1,0,
+        0,0,97,100,3,24,12,0,98,100,3,26,13,0,99,97,1,0,0,0,99,98,1,0,0,
+        0,100,5,1,0,0,0,101,104,3,28,14,0,102,104,3,30,15,0,103,101,1,0,
+        0,0,103,102,1,0,0,0,104,7,1,0,0,0,105,108,3,10,5,0,106,108,3,12,
+        6,0,107,105,1,0,0,0,107,106,1,0,0,0,108,9,1,0,0,0,109,112,3,32,16,
+        0,110,112,3,34,17,0,111,109,1,0,0,0,111,110,1,0,0,0,112,11,1,0,0,
+        0,113,116,3,36,18,0,114,116,3,38,19,0,115,113,1,0,0,0,115,114,1,
+        0,0,0,116,13,1,0,0,0,117,120,3,40,20,0,118,120,3,42,21,0,119,117,
+        1,0,0,0,119,118,1,0,0,0,120,15,1,0,0,0,121,122,3,44,22,0,122,17,
+        1,0,0,0,123,126,3,46,23,0,124,126,3,48,24,0,125,123,1,0,0,0,125,
+        124,1,0,0,0,126,19,1,0,0,0,127,128,3,50,25,0,128,21,1,0,0,0,129,
+        130,3,54,27,0,130,23,1,0,0,0,131,133,5,2,0,0,132,134,5,3,0,0,133,
+        132,1,0,0,0,133,134,1,0,0,0,134,25,1,0,0,0,135,137,5,4,0,0,136,138,
+        5,3,0,0,137,136,1,0,0,0,137,138,1,0,0,0,138,27,1,0,0,0,139,140,5,
+        5,0,0,140,142,5,7,0,0,141,143,5,8,0,0,142,141,1,0,0,0,142,143,1,
+        0,0,0,143,29,1,0,0,0,144,145,5,5,0,0,145,147,5,6,0,0,146,148,5,8,
+        0,0,147,146,1,0,0,0,147,148,1,0,0,0,148,31,1,0,0,0,149,150,5,9,0,
+        0,150,151,5,14,0,0,151,33,1,0,0,0,152,153,5,10,0,0,153,154,5,14,
+        0,0,154,35,1,0,0,0,155,156,5,11,0,0,156,158,5,14,0,0,157,159,5,13,
+        0,0,158,157,1,0,0,0,158,159,1,0,0,0,159,37,1,0,0,0,160,161,5,12,
+        0,0,161,163,5,14,0,0,162,164,5,13,0,0,163,162,1,0,0,0,163,164,1,
+        0,0,0,164,39,1,0,0,0,165,166,5,16,0,0,166,167,3,56,28,0,167,168,
+        3,58,29,0,168,41,1,0,0,0,169,170,5,16,0,0,170,171,3,56,28,0,171,
+        43,1,0,0,0,172,173,5,26,0,0,173,174,5,27,0,0,174,175,3,62,31,0,175,
+        176,5,10,0,0,176,177,5,27,0,0,177,185,1,0,0,0,178,179,5,9,0,0,179,
+        180,5,28,0,0,180,181,3,62,31,0,181,182,5,10,0,0,182,183,5,28,0,0,
+        183,185,1,0,0,0,184,172,1,0,0,0,184,178,1,0,0,0,185,45,1,0,0,0,186,
+        187,3,64,32,0,187,188,5,29,0,0,188,189,3,66,33,0,189,190,5,10,0,
+        0,190,191,5,29,0,0,191,47,1,0,0,0,192,193,3,64,32,0,193,194,5,29,
+        0,0,194,195,3,66,33,0,195,196,5,31,0,0,196,197,3,74,37,0,197,198,
+        5,10,0,0,198,199,5,29,0,0,199,49,1,0,0,0,200,201,5,35,0,0,201,202,
+        5,36,0,0,202,203,5,17,0,0,203,204,3,76,38,0,204,51,1,0,0,0,205,206,
+        3,78,39,0,206,207,5,18,0,0,207,53,1,0,0,0,208,210,5,9,0,0,209,211,
+        5,37,0,0,210,209,1,0,0,0,210,211,1,0,0,0,211,212,1,0,0,0,212,213,
+        5,38,0,0,213,214,3,62,31,0,214,216,5,10,0,0,215,217,5,37,0,0,216,
+        215,1,0,0,0,216,217,1,0,0,0,217,218,1,0,0,0,218,220,5,38,0,0,219,
+        221,5,30,0,0,220,219,1,0,0,0,220,221,1,0,0,0,221,222,1,0,0,0,222,
+        223,5,39,0,0,223,224,5,40,0,0,224,225,5,17,0,0,225,226,3,76,38,0,
+        226,55,1,0,0,0,227,231,9,0,0,0,228,230,9,0,0,0,229,228,1,0,0,0,230,
+        233,1,0,0,0,231,232,1,0,0,0,231,229,1,0,0,0,232,57,1,0,0,0,233,231,
+        1,0,0,0,234,235,5,19,0,0,235,236,5,20,0,0,236,237,3,60,30,0,237,
+        59,1,0,0,0,238,239,5,46,0,0,239,240,5,21,0,0,240,61,1,0,0,0,241,
+        245,9,0,0,0,242,244,9,0,0,0,243,242,1,0,0,0,244,247,1,0,0,0,245,
+        246,1,0,0,0,245,243,1,0,0,0,246,63,1,0,0,0,247,245,1,0,0,0,248,249,
+        7,0,0,0,249,65,1,0,0,0,250,255,3,68,34,0,251,252,5,30,0,0,252,254,
+        3,68,34,0,253,251,1,0,0,0,254,257,1,0,0,0,255,253,1,0,0,0,255,256,
         1,0,0,0,256,67,1,0,0,0,257,255,1,0,0,0,258,259,3,70,35,0,259,260,
-        5,41,0,0,260,261,3,72,36,0,261,268,1,0,0,0,262,263,5,41,0,0,263,
+        5,46,0,0,260,261,3,72,36,0,261,268,1,0,0,0,262,263,5,46,0,0,263,
         264,3,72,36,0,264,265,5,19,0,0,265,266,3,70,35,0,266,268,1,0,0,0,
         267,258,1,0,0,0,267,262,1,0,0,0,268,69,1,0,0,0,269,273,8,1,0,0,270,
         272,8,2,0,0,271,270,1,0,0,0,272,275,1,0,0,0,273,271,1,0,0,0,273,
         274,1,0,0,0,274,71,1,0,0,0,275,273,1,0,0,0,276,278,8,1,0,0,277,279,
         8,1,0,0,278,277,1,0,0,0,278,279,1,0,0,0,279,281,1,0,0,0,280,282,
         8,1,0,0,281,280,1,0,0,0,281,282,1,0,0,0,282,73,1,0,0,0,283,284,5,
-        41,0,0,284,285,7,3,0,0,285,75,1,0,0,0,286,288,5,42,0,0,287,289,5,
-        42,0,0,288,287,1,0,0,0,288,289,1,0,0,0,289,291,1,0,0,0,290,292,5,
-        42,0,0,291,290,1,0,0,0,291,292,1,0,0,0,292,294,1,0,0,0,293,295,5,
-        42,0,0,294,293,1,0,0,0,294,295,1,0,0,0,295,77,1,0,0,0,296,297,5,
+        46,0,0,284,285,7,3,0,0,285,75,1,0,0,0,286,288,5,47,0,0,287,289,5,
+        47,0,0,288,287,1,0,0,0,288,289,1,0,0,0,289,291,1,0,0,0,290,292,5,
+        47,0,0,291,290,1,0,0,0,291,292,1,0,0,0,292,294,1,0,0,0,293,295,5,
+        47,0,0,294,293,1,0,0,0,294,295,1,0,0,0,295,77,1,0,0,0,296,297,5,
         15,0,0,297,300,5,17,0,0,298,300,5,16,0,0,299,296,1,0,0,0,299,298,
         1,0,0,0,300,79,1,0,0,0,30,87,95,99,103,107,111,115,119,125,133,137,
         142,147,158,163,184,210,216,220,231,245,255,267,273,278,281,288,
@@ -127,14 +127,13 @@ class MedicalSmartGlassesParser ( Parser ):
 
     literalNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "'frame'", "'continue'", 
                      "'turn'", "'on'", "'off'", "'display'", "'start'", 
-                     "'finish'", "'accept'", "'leave'", "'mode'", "'emergency'", 
+                     "<INVALID>", "'accept'", "'leave'", "'mode'", "'emergency'", 
                      "'switch'", "<INVALID>", "'to'", "'messages'", "'of'", 
                      "'last'", "<INVALID>", "'day'", "'hour'", "'minute'", 
                      "'s'", "'set'", "'note'", "'documentation'", "'medication'", 
                      "'and'", "'at'", "'oclock'", "'pm'", "'am'", "'change'", 
                      "'patient'", "'new'", "'message'", "'send'", "'it'", 
-                     "<INVALID>", "<INVALID>", "<INVALID>", "'please'", 
-                     "'the'", "'a'", "'i want to'" ]
+                     "<INVALID>", "'please'", "'the'", "'a'", "'i want to'" ]
 
     symbolicNames = [ "<INVALID>", "TRIGGER", "STOP", "FRAME", "CONTINUE", 
                       "TURN", "ON", "OFF", "DISPLAY", "START", "FINISH", 
@@ -142,8 +141,8 @@ class MedicalSmartGlassesParser ( Parser ):
                       "SHOW", "TO", "MESSAGES", "OF", "LAST", "TIME_UNIT", 
                       "DAY", "HOUR", "MINUTE", "S", "SET", "NOTE", "DOCUMENTATION", 
                       "MEDICATION", "AND", "AT", "OCLOCK", "PM", "AM", "CHANGE", 
-                      "PATIENT", "NEW", "MESSAGE", "SEND", "IT", "INT", 
-                      "WORD", "WS", "PLEASE", "THE", "A", "I_WANT_TO" ]
+                      "PATIENT", "NEW", "MESSAGE", "SEND", "IT", "WS", "PLEASE", 
+                      "THE", "A", "I_WANT_TO", "INT", "WORD" ]
 
     RULE_command = 0
     RULE_glasses_command = 1
@@ -236,13 +235,13 @@ class MedicalSmartGlassesParser ( Parser ):
     MESSAGE=38
     SEND=39
     IT=40
-    INT=41
-    WORD=42
-    WS=43
-    PLEASE=44
-    THE=45
-    A=46
-    I_WANT_TO=47
+    WS=41
+    PLEASE=42
+    THE=43
+    A=44
+    I_WANT_TO=45
+    INT=46
+    WORD=47
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -411,26 +410,23 @@ class MedicalSmartGlassesParser ( Parser ):
         localctx = MedicalSmartGlassesParser.Glasses_commandContext(self, self._ctx, self.state)
         self.enterRule(localctx, 2, self.RULE_glasses_command)
         try:
+            self.enterOuterAlt(localctx, 1)
             self.state = 95
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [2, 4]:
-                self.enterOuterAlt(localctx, 1)
                 self.state = 91
                 self.frame()
                 pass
             elif token in [5]:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 92
                 self.switch()
                 pass
             elif token in [9, 10, 11, 12]:
-                self.enterOuterAlt(localctx, 3)
                 self.state = 93
                 self.emergency()
                 pass
             elif token in [15, 16]:
-                self.enterOuterAlt(localctx, 4)
                 self.state = 94
                 self.u19()
                 pass
@@ -486,16 +482,15 @@ class MedicalSmartGlassesParser ( Parser ):
         localctx = MedicalSmartGlassesParser.FrameContext(self, self._ctx, self.state)
         self.enterRule(localctx, 4, self.RULE_frame)
         try:
+            self.enterOuterAlt(localctx, 1)
             self.state = 99
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [2]:
-                self.enterOuterAlt(localctx, 1)
                 self.state = 97
                 self.u01()
                 pass
             elif token in [4]:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 98
                 self.u02()
                 pass
@@ -551,17 +546,16 @@ class MedicalSmartGlassesParser ( Parser ):
         localctx = MedicalSmartGlassesParser.SwitchContext(self, self._ctx, self.state)
         self.enterRule(localctx, 6, self.RULE_switch)
         try:
+            self.enterOuterAlt(localctx, 1)
             self.state = 103
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
             if la_ == 1:
-                self.enterOuterAlt(localctx, 1)
                 self.state = 101
                 self.u03()
                 pass
 
             elif la_ == 2:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 102
                 self.u04()
                 pass
@@ -616,16 +610,15 @@ class MedicalSmartGlassesParser ( Parser ):
         localctx = MedicalSmartGlassesParser.EmergencyContext(self, self._ctx, self.state)
         self.enterRule(localctx, 8, self.RULE_emergency)
         try:
+            self.enterOuterAlt(localctx, 1)
             self.state = 107
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [9, 10]:
-                self.enterOuterAlt(localctx, 1)
                 self.state = 105
                 self.emergency_launch()
                 pass
             elif token in [11, 12]:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 106
                 self.emergency_acceptation()
                 pass
@@ -681,16 +674,15 @@ class MedicalSmartGlassesParser ( Parser ):
         localctx = MedicalSmartGlassesParser.Emergency_launchContext(self, self._ctx, self.state)
         self.enterRule(localctx, 10, self.RULE_emergency_launch)
         try:
+            self.enterOuterAlt(localctx, 1)
             self.state = 111
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [9]:
-                self.enterOuterAlt(localctx, 1)
                 self.state = 109
                 self.u09()
                 pass
             elif token in [10]:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 110
                 self.u10()
                 pass
@@ -746,16 +738,15 @@ class MedicalSmartGlassesParser ( Parser ):
         localctx = MedicalSmartGlassesParser.Emergency_acceptationContext(self, self._ctx, self.state)
         self.enterRule(localctx, 12, self.RULE_emergency_acceptation)
         try:
+            self.enterOuterAlt(localctx, 1)
             self.state = 115
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [11]:
-                self.enterOuterAlt(localctx, 1)
                 self.state = 113
                 self.u11()
                 pass
             elif token in [12]:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 114
                 self.u12()
                 pass
@@ -811,17 +802,16 @@ class MedicalSmartGlassesParser ( Parser ):
         localctx = MedicalSmartGlassesParser.Request_dataContext(self, self._ctx, self.state)
         self.enterRule(localctx, 14, self.RULE_request_data)
         try:
+            self.enterOuterAlt(localctx, 1)
             self.state = 119
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
             if la_ == 1:
-                self.enterOuterAlt(localctx, 1)
                 self.state = 117
                 self.u13()
                 pass
 
             elif la_ == 2:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 118
                 self.u14()
                 pass
@@ -924,17 +914,16 @@ class MedicalSmartGlassesParser ( Parser ):
         localctx = MedicalSmartGlassesParser.Set_medicationContext(self, self._ctx, self.state)
         self.enterRule(localctx, 18, self.RULE_set_medication)
         try:
+            self.enterOuterAlt(localctx, 1)
             self.state = 125
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,8,self._ctx)
             if la_ == 1:
-                self.enterOuterAlt(localctx, 1)
                 self.state = 123
                 self.u16()
                 pass
 
             elif la_ == 2:
-                self.enterOuterAlt(localctx, 2)
                 self.state = 124
                 self.u17()
                 pass
@@ -2160,8 +2149,8 @@ class MedicalSmartGlassesParser ( Parser ):
             self.state = 231
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,19,self._ctx)
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt==1:
+            while _alt!=1 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt==1+1:
                     self.state = 228
                     self.matchWildcard() 
                 self.state = 233
@@ -2326,8 +2315,8 @@ class MedicalSmartGlassesParser ( Parser ):
             self.state = 245
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,20,self._ctx)
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt==1:
+            while _alt!=1 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt==1+1:
                     self.state = 242
                     self.matchWildcard() 
                 self.state = 247
@@ -2519,7 +2508,7 @@ class MedicalSmartGlassesParser ( Parser ):
             self.state = 267
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47]:
+            if token in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47]:
                 self.state = 258
                 self.medicine()
                 self.state = 259
@@ -2527,7 +2516,7 @@ class MedicalSmartGlassesParser ( Parser ):
                 self.state = 260
                 self.unit()
                 pass
-            elif token in [41]:
+            elif token in [46]:
                 self.state = 262
                 self.match(MedicalSmartGlassesParser.INT)
                 self.state = 263
@@ -2597,7 +2586,7 @@ class MedicalSmartGlassesParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 269
             _la = self._input.LA(1)
-            if _la <= 0 or _la==41:
+            if _la <= 0 or _la==46:
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -2609,7 +2598,7 @@ class MedicalSmartGlassesParser ( Parser ):
                 if _alt==1:
                     self.state = 270
                     _la = self._input.LA(1)
-                    if _la <= 0 or _la==30 or _la==41:
+                    if _la <= 0 or _la==30 or _la==46:
                         self._errHandler.recoverInline(self)
                     else:
                         self._errHandler.reportMatch(self)
@@ -2669,7 +2658,7 @@ class MedicalSmartGlassesParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 276
             _la = self._input.LA(1)
-            if _la <= 0 or _la==41:
+            if _la <= 0 or _la==46:
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -2680,7 +2669,7 @@ class MedicalSmartGlassesParser ( Parser ):
             if la_ == 1:
                 self.state = 277
                 _la = self._input.LA(1)
-                if _la <= 0 or _la==41:
+                if _la <= 0 or _la==46:
                     self._errHandler.recoverInline(self)
                 else:
                     self._errHandler.reportMatch(self)
@@ -2693,7 +2682,7 @@ class MedicalSmartGlassesParser ( Parser ):
             if la_ == 1:
                 self.state = 280
                 _la = self._input.LA(1)
-                if _la <= 0 or _la==41:
+                if _la <= 0 or _la==46:
                     self._errHandler.recoverInline(self)
                 else:
                     self._errHandler.reportMatch(self)
@@ -2834,7 +2823,7 @@ class MedicalSmartGlassesParser ( Parser ):
             self.state = 294
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==42:
+            if _la==47:
                 self.state = 293
                 self.match(MedicalSmartGlassesParser.WORD)
 

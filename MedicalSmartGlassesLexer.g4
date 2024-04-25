@@ -11,7 +11,7 @@ ON: 'on';
 OFF: 'off';
 DISPLAY: 'display';
 START: 'start';
-FINISH: 'finish';
+FINISH: ('finish' | 'complete');
 ACCEPT: 'accept';
 LEAVE: 'leave';
 MODE: 'mode';
@@ -53,10 +53,11 @@ MESSAGE: 'message';
 SEND: 'send';
 IT: 'it';
 
-INT: [0-9]+;
-WORD: [a-zA-Z]+;
 WS : [ \t\r\n]+ -> skip;
 PLEASE: 'please' -> skip ;
 THE : 'the' -> skip ;
 A : 'a' -> skip ;
 I_WANT_TO : 'i want to' -> skip ;
+
+INT: [0-9]+;
+WORD: [a-zA-Z]+;

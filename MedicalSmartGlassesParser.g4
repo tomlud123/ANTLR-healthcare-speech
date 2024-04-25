@@ -38,10 +38,10 @@ u18: CHANGE PATIENT TO patient_name;
 u19: trig_message MESSAGES;
 u20: START (NEW)? MESSAGE note FINISH (NEW)? MESSAGE (AND)? SEND IT TO patient_name;
 
-data: . (.)*;
+data: . (.)*?;
 interval: OF LAST time;
 time: INT TIME_UNIT;
-note: . (.)*;
+note: . (.)*?;
 trig_medication: (SET | START);
 medications: medication (AND medication)*;
 medication: (medicine INT unit | INT unit OF medicine);

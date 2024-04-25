@@ -1,4 +1,3 @@
-import argparse
 import json
 import logging
 import re
@@ -7,13 +6,11 @@ import sys
 from antlr4 import *
 from antlr4.error.ErrorStrategy import DefaultErrorStrategy
 from antlr4.tree.Trees import Trees
-from word2number import w2n
 
 
 from CaisMeVisitor import CaisMeVisitor
 from gen.MedicalSmartGlassesLexer import MedicalSmartGlassesLexer
 from gen.MedicalSmartGlassesParser import MedicalSmartGlassesParser
-from gen.MedicalSmartGlassesParserVisitor import MedicalSmartGlassesParserVisitor
 
 
 # Master thesis solution
@@ -43,7 +40,7 @@ def parse(input_string):
 def prevalidate(input_text):
     if input_text == "":
         raise RecognitionException("Prevalidation failed, input is an empty string")
-    if len(input_text) > 500:
+    if len(input_text) > 1000:
         raise RecognitionException("Prevalidation failed, input too long")
     norm_input = normalize(input_text)
     if TRIGGER not in norm_input:
@@ -67,12 +64,6 @@ def normalize(input_text):
     if TRIGGER in input_text:
         input_text = TRIGGER + " " + re.split(TRIGGER, input_text)[-1].strip()
 
-    # Split words and numbers
-    input_text = re.sub(r'(\d)(?=\D)|(\D)(?=\d)', r'\1\2 ', input_text)
-
-    # Unify multiple whitespaces into a single whitespace
-    input_text = re.sub(r'\s+', ' ', input_text)
-
     return input_text
 
 
@@ -91,8 +82,8 @@ def get_json(command_str):
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(message)s')
     logging.getLogger().addHandler(logging.FileHandler('logfile.txt'))
-    input = "okay GlaSsES stop1 frame machine five hundred nine"
+    input = "ok glasses Start message: Inform Dr. Patel about the patient's discharge instructions. Finish and send it to Dr."
     if len(sys.argv) > 1:
         input = sys.argv[1]
     json_dict = get_json(input)
-    print("\nOutput:\n" + json.dumps(json_dict, indent=4))
+    print("Output:\n" + json.dumps(json_dict, indent=4) + "\n")
