@@ -117,7 +117,7 @@ class CommandToJsonTest(unittest.TestCase):
         self.assertEqual(output['content'], "name")
         output = get_json("okay glasses show pulse of the patient 2 times ")
         self.assertEqual(output['type'], "REQUEST_DATA")
-        self.assertEqual(output['content'], "pulse of the patient 2 times")
+        self.assertEqual(output['content'], "pulse of patient 2 times")
 
     def test_U15(self):
         output = get_json("okay glasses set note 0")

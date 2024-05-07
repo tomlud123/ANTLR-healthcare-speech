@@ -45,5 +45,5 @@ if __name__ == "__main__":
     command = parser.parse_args().input_string
     command = preprocess_command(command)
     print("PREP: "+command)
-    command = "ok glasses set note lala babababababa end note"#TODO usu
+    command = "ok glasses set note example note end note"
     result = print_tree(command)
