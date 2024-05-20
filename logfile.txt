@@ -1,0 +1,5 @@
+Provided input doesn't match the grammar
+Parse tree: (command ok glasses  (set_medication (u16 (trig_medication set) medication (medications (medication (medicine ibuprofen) 1 (unit pill)) and (medication (medicine rutinoscorbin) 20 (unit pills)) and (medication (medicine fresh water) 1 (unit cup))) finish medication)) <EOF>)
+Parse tree: (command ok glasses  (set_medication (u16 (trig_medication set) medication (medications (medication (medicine ibuprofen) 1 (unit pill)) and (medication (medicine rutinoscorbin) 20 (unit pills)) and (medication (medicine fresh water) 1 (unit cup))) finish medication)) <EOF>)
+Parse tree: (command ok glasses  (glasses_command (frame (u01 stop frame))) <EOF>)
+Parse tree: (command ok glasses  (set_medication (u16 (trig_medication set) medication (medications (medication (medicine ibupron) 1 (unit pill)) and (medication (medicine rutinoscorbin) 20 (unit pills)) and (medication (medicine fresh water) 1 (unit cup))) finish medication)) <EOF>)

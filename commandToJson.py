@@ -82,7 +82,7 @@ def get_json(command_str):
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(message)s')
     logging.getLogger().addHandler(logging.FileHandler('logfile.txt'))
-    input = "ok glasses Start message: Inform Dr. Patel about the patient's discharge instructions. Finish and send it to Dr."
+    input = "ok glasses stop frame"
     if len(sys.argv) > 1:
         input = sys.argv[1]
     json_dict = get_json(input)
